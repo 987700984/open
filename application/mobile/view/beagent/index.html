@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>成为代理</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="__CSS__/cssreset-min.css">
+    <link rel="stylesheet" href="__3RD__/skin/default/layer.css">
+    <link rel="stylesheet" href="__CSS__/style.css">
+
+    <script>
+        window.onload = function () {
+            (function () {
+                var w = document.documentElement.clientWidth;
+                if (w <= 720) {
+                    document.documentElement.style.fontSize = w / 12 + 'px';
+                } else {
+                    document.body.style.width = '720px';
+                    document.body.style.margin = '0 auto';
+                    document.documentElement.style.fontSize = 720 / 12 + 'px';
+                }
+            })();
+        };
+    </script>
+
+</head>
+<body>
+<div class="yy-wrap">
+    <!--
+    <div class="file-des">
+        <h3>填写资料并消费<span>3600元</span>可以获得VIP资格以及<span>2000张+VIP赠1000张房卡</span>，享受给好友赠卡等特权</h3>
+        <p>注意：1、一个微信号只能成为一个地区的VIP，如果您已经是其他地区的VIP则无法成功</p>
+    </div>
+    -->
+    <div class="file-form">
+        <h3>填写资料</h3>
+
+          <form class="form-horizontal m-t" id="form-msg" method="post" action="{:url('Beagent/addagent')}" onsubmit="return toVaild()">
+
+            <div class="wechat-wrap">
+                <label for="wechat">userid（必填）</label>
+                <input type="text" name="userid" id="userid" placeholder="请输入游戏userid" required>
+            </div>
+
+            <!--
+            <div class="yzm-wrap">
+                <label for="yzm">验证码（必填）</label>
+                <input type="text" name="yzm" id="yzm" placeholder="请输入验证码" required>
+                <img src="{:url('checkVerify')}" onclick="javascript:this.src='{:url('checkVerify')}?tm='+Math.random();" alt="验证码"/>
+            </div>
+            -->
+
+            <div class="phone-wrap">
+                <label for="phone">手机号（必填）</label>
+                <input type="text" name="phone" id="phone" placeholder="请输入11位手机号" required>
+                <input type="text" name="pyzm" id="pyzm" placeholder="请输入手机验证码" required>
+                <input type="button" name="getyzm" id="getyzm" class="getyzm" onclick="sendMessage()" value="获取验证码">
+            </div>
+
+            <div class="wechat-wrap">
+                <label for="password">密码（必填）</label>
+                <input type="password" name="password" id="password" placeholder="请输入密码" required>
+            </div>
+
+            <div class="wechat-wrap">
+                <label for="passwordtwo">确认密码（必填）</label>
+                <input type="password" name="passwordtwo" id="passwordtwo" placeholder="请输入确认密码" required>
+            </div>
+
+
+            <div class="city-wrap">
+            <label>代理级别</label>
+            <select name="typeid">
+                {volist name="tprolelist" id="vo" key="k"}
+                    {if condition="$k == 1 "}
+                        <option value="{$vo.id}">{$vo.rolename}</option>
+                    {else /}
+                        <option value="{$vo.id}">{$vo.rolename}(￥{$vo.goodsprice})</option>
+                    {/if}
+                {/volist}
+            </select>
+                
+            </div>
+            <div class="city-wrap">
+                <label>省市区</label>
+                <div id="set-city" class="citys">
+                    <p>
+                        <select name="province"></select>
+                        <select name="city"></select>
+                        <select name="area" style="margin-right: 0;"></select>
+                    </p>
+                </div>
+            </div>
+            <div class="address-wrap">
+                <label for="address">详细地址</label>
+                <input type="text" name="address" id="address" placeholder="请填写详细地址" required>
+            </div>
+            <div class="service-wrap">
+                <label for="service">服务区域</label>
+                <input type="text" name="service" id="service" placeholder="服务区域所属省份、市区" required>
+            </div>
+            <div class="agreement-wrap">
+                <input id="clause" type="checkbox" name="agree" value="1" checked="checked" style="vertical-align: top;" >
+                <label for="clause">我已阅读并同意 《<a href="http://admin.2j1.com/articles/5.html" target="_blank" class="agreement">二加一游戏服务协议</a>》</label>
+            </div>
+            <input type="hidden" name="openid" value="{$openid}"/>
+            <input type="hidden" name="unionid" value="{$unionid}"/>
+            <input type="hidden" name="nickname" value="{$nickname}"/>
+            <div class="sub-btn" style="margin: 40px 0;">
+                <input type="submit" value="提交资料">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__3RD__/layer.js"></script>
+<script type="text/javascript" src="__JS__/jquery.validate.js"></script>
+<script type="text/javascript" src="__JS__/jquery.citys.js"></script>
+<script type="text/javascript">
+    $('#set-city').citys({code: ''});
+</script>
+<script>
+
+
+    $().ready(function() {
+        // 手机号码验证
+        jQuery.validator.addMethod("isMobile", function(value, element) {
+            var length = value.length;
+            var mobile = /^(13[0-9]{9})|(18[0-9]{9})|(14[0-9]{9})|(17[0-9]{9})|(15[0-9]{9})$/;
+            return this.optional(element) || (length == 11 && mobile.test(value));
+        }, "请正确填写您的手机号码");
+
+        $("#form-msg").validate({
+            rules: {
+                userid: {
+                    required: true
+                },
+                phone:{
+                    required: true,
+                    minlength: 11,
+                    isMobile : true
+                },
+                pyzm: {
+                    required: true
+                },
+                address: {
+                    required: true
+                },
+                service: {
+                    required: true
+                }
+
+            },
+            messages: {
+                userid: {
+                    required: "userid不能为空"
+                },
+                phone:{
+                    required: "请输入电话号码",
+                    minlength: "手机不能小于11个字符",
+                    isMobile : "请正确填写您的手机号码"
+                },
+                pyzm: {
+                    required: "手机验证码不能为空"
+                },
+                address: {
+                    required: "详细地址不能为空"
+                },
+                service: {
+                    required: "代理的服务区域不能为空"
+                }
+            },
+            showErrors : function(errorMap, errorList) {
+                var msg = "";
+                $.each(errorList, function(i, v) {
+                    msg += (v.message + "\r\n");
+                });
+                if (msg != "")
+                    layer.msg(msg);
+            }
+        });
+
+    });
+
+    /*
+     *   点击获取验证码的倒计时
+     *
+     * */
+    var InterValObj;    //timer变量，控制时间
+    var count = 60;  //间隔函数，1秒执行
+    var curCount;   //当前剩余秒数
+    var getBtn = $('.getyzm');  // 获取验证码按钮
+
+    function sendMessage() {
+        var phone = $("#phone").val();
+        if(phone==''){
+           layer.msg("请输入手机号码"); 
+           return false;
+        }
+        if(!phone.match(/^1[34578]\d{9}$/))
+        {
+            layer.msg("请填写正确的手机号码");
+            return false;
+        }
+        $.ajax({
+             type:'post',
+             async:false,
+             url:"{:url('Beagent/sendmsg')}",
+             data:{'phone':phone},
+             success: function(data) {
+                    if(data.code!=1){
+                      layer.msg(""+data.msg+"");
+                       return false;
+                    }else{
+                        layer.msg(""+data.msg+"");   
+                    }
+
+            }
+        });
+
+        curCount = count;
+        //设置button效果，开始计时
+        getBtn.attr("disabled", "true");
+        getBtn.val("请在" + curCount + "秒内输入");
+        InterValObj = window.setInterval(SetRemainTime, 1000); //启动计时器，1秒执行一次
+
+    }
+
+    //timer处理函数
+    function SetRemainTime() {
+        if (curCount == 0) {
+            window.clearInterval(InterValObj);//停止计时器
+            getBtn.removeAttr("disabled");//启用按钮
+            getBtn.val("重新发送验证码");
+        }
+        else {
+            curCount--;
+            getBtn.val("请在" + curCount + "秒内输入");
+        }
+    }
+
+    function toVaild(){
+
+        var url = "{:url('Beagent/addagent')}";
+        $.ajax({
+            type:"POST",
+            url:url,
+            data:{'data' : $('#form-msg').serialize()},// 你的formid
+            async: false,
+            success: function(data) {
+                if(data.code==1){
+                    layer.msg(""+data.msg+"");
+                    setInterval(function(){
+                        window.location.href=data.data;
+                    },2000); 
+                }else if(data.code==-4){
+                  layer.msg(""+data.msg+"");
+                   return false;
+                }else{
+                  layer.msg(""+data.msg+"");
+                    setInterval(function(){
+                        window.location.href=data.data;
+                    },2000);   
+                }
+
+            }
+        });
+
+        return false;
+    }
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>代理申请</title>
+<meta charset="gb2312">
+<link href="__CSS__/home.css?v=2" rel="stylesheet" type="text/css" />
+
+<link href="__CSS__/bootstrap-fileinput.css" rel="stylesheet">
+<script src="__JS__/jquery.min.js?v=2.1.4"></script>
+<script src="__JS__/bootstrap-fileinput.js"></script>
+
+</head>
+
+<body>
+
+<div class="wrap">
+	
+
+
+	<div class="container">
+		<div class="register-box">
+			<div class="reg-slogan">
+				代理申请</div>
+
+			<form action="" id="commentForm">
+				
+				<div class="reg-form" id="js-form-mobile">
+					<br>
+					<br>
+					<div class="cell">
+						<input type="text" name="username" placeholder="用户名" id="username" class="text" maxlength="11" />
+					</div>
+					<div class="cell">
+						<input type="text" placeholder="手机号码" name="phone" id="phone" class="text" maxlength="11" />
+					</div>
+					
+					<!-- !短信验证码 -->
+					<div class="cell vcode">
+						<label for="js-mobile_vcode_ipt"></label>
+						<input type="text" name="code" id="code" placeholder="输入验证码" class="text" maxlength="6" />
+						<a href="javascript:;" onclick="code()" id="code" class="button ">
+						免费获取验证码</a> </div>
+					<div class="cell">
+						<label for="js-mobile_pwd_ipt"></label>
+						<input type="password" name="password" id="password" placeholder="设置密码" class="text" />
+						<!-- <input type="text" name="passwd" id="js-mobile_pwd_ipt_txt" class="text" maxlength="20" style="display:none;" /> -->
+						 </div>	
+	                <div class="form-group">
+	                    <label class="col-sm-3 control-label">头像：</label>
+	                    <div class="fileinput fileinput-new" data-provides="fileinput"  id="exampleInputUpload">
+	                        <div class="fileinput-new thumbnail" style="width: 200px;height: auto;max-height:150px;">
+	                            <img id='picImg' style="width: 100%;height: auto;max-height: 140px;" src="" alt="" />
+	                        </div>
+	                        <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 150px;"></div>
+	                        <div>
+	                            <span class="btn btn-primary btn-file">
+	                                <span class="fileinput-new">选择文件</span>
+	                                <span class="fileinput-exists">换一张</span>
+	                                <input type="file" name="picid" id="picID" onchange="showImage(1);" accept="image/gif,image/jpeg,image/x-png"  />
+	                            </span>
+	                            <a href="javascript:;" class="btn btn-warning fileinput-exists" data-dismiss="fileinput">移除</a>
+	                        </div>
+	                    </div>
+	                	<div class="cell">
+							<label for="js-mobile_pwd_ipt"></label>
+							<input type="text" name="aid" id="aid" placeholder="推荐人ID" class="text" />
+							<!-- <input type="text" name="passwd" id="js-mobile_pwd_ipt_txt" class="text" maxlength="20" style="display:none;" /> -->
+						 </div>	
+
+	                </div>
+					<div class="bottom">
+						<a id="sub" href="javascript:;" onclick="sub()" class="button btn-green">
+						立即申请</a></div>
+				</div>
+			</form>
+			
+		</div>
+	</div>
+</div>
+  
+ 
+<div class="footer">
+	<div class="con">
+		<div class="copy-right">
+			<div class="cell">
+				<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+					<p>Copyright &copy; 2016-2020  版权所有   深圳市比特信科技有限公司  </p>
+				<!--  <p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+<script src="__JS__/bootstrap.min.js?v=3.3.6"></script>
+<script src="__JS__/content.min.js?v=1.0.0"></script>
+<script src="__JS__/plugins/validate/jquery.validate.min.js"></script>
+<script src="__JS__/plugins/validate/messages_zh.min.js"></script>
+<script src="__JS__/plugins/iCheck/icheck.min.js"></script>
+<script src="__JS__/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="__JS__/plugins/layer/laydate/laydate.js"></script>
+<script src="__JS__/plugins/suggest/bootstrap-suggest.min.js"></script>
+<script src="__JS__/plugins/layer/layer.min.js"></script>
+<script>
+	function code(){
+		if (!$('#phone').val()) {
+				alert("请输入手机号码");
+				return false;
+			};
+			var myreg=/^[1][3,4,5,7,8][0-9]{9}$/;  
+			if (!myreg.test($('#phone').val())) {  
+			  	alert('请输入正确手机号码'); 
+			  	return false; 
+			}  
+			$.post("{:url('login/code')}", {phone : $('#phone').val()}, function(){
+
+			})
+	}
+	
+	var types = new Array();
+	function showImage(id){
+		var jz;
+		var fileObj = document.getElementById("picID").files[0]; // js 获取文件对象
+        if (typeof (fileObj) == "undefined" || fileObj.size <= 0) {
+            alert("请选择图片");
+            return false;
+        }
+        var formFile = new FormData();
+        var data = formFile;
+  
+        formFile.append("data", 'type='+id);  
+        formFile.append("file", fileObj); //加入文件对象
+        $.ajax({
+            type:"POST",
+            url:"{:url('login/upload')}",
+            data:data,// 你的formid
+            async: false,
+            cache: false,
+            contentType: false,
+            processData: false,
+            beforeSend:function(){
+                jz = layer.load(0, {shade: false}); //0代表加载的风格，支持0-2
+            },
+            error: function(request) {
+                layer.close(jz);
+                alert("网络错误!");
+            },
+            success: function(data) {
+                //关闭加载层
+                layer.close(jz);
+                if(data.code == 1){
+            		types[data.type] = data.pic;
+		console.log(types);
+                    alert(data.msg);
+                }else{
+                    alert(data.msg);
+                }
+
+            }
+        });
+	}
+
+	function sub(){
+	
+		if (!$('#username').val()) {
+			alert('填写用户名');
+			return false;
+		};
+		if (!$('#username').val()) {
+			alert('请输入验证码');
+			return false;
+		};
+		if (!$('#phone').val()) {
+			alert('请设置密码');
+			return false;
+		};
+		if (!types['1']) {
+			alert('请上传头像');
+			return false;
+		};
+		$.post("{:url('login/agent')}", {data:$('#commentForm').serialize(), pic:types}, function(obj){
+			if (obj.code == 1) {
+				alert(obj.msg);
+			}else{
+				alert(obj.msg);
+				
+			};
+		});
+	}
+
+</script>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="__CSS__/style.css">
+<script>
+    window.onload = function () {
+        (function () {
+            var w = document.documentElement.clientWidth;
+            if (w <= 720) {
+                document.documentElement.style.fontSize = w / 12 + 'px';
+            } else {
+                document.body.style.width = '720px';
+                document.body.style.margin = '0 auto';
+                document.documentElement.style.fontSize = 720 / 12 + 'px';
+            }
+        })();
+    };
+</script>
+<body>
+<div class="yxcz-wrap">
+    <div class="header">
+        游戏充值
+    </div>
+    <div class="id-msg">
+        <p class="name">昵称：<span>咕咚</span></p>
+        <p class="wechat-id">微信号：<span>57624134</span></p>
+    </div>
+    <div class="notice">
+        <span>小提示：</span>
+        <p>1、成功购买后房卡直接充值到游戏中</p>
+        <p>2、房卡将充入您当前微信绑定的游戏账号，请确认无误</p>
+    </div>
+    <ul class="cz-list clearfix">
+        <li class="active">
+            <p>七彩棒棒糖</p>
+            <h3>15元</h3>
+            <span>获得5张房卡</span>
+        </li>
+        <li>
+            <p>冰爽可乐</p>
+            <h3>30元</h3>
+            <span>获得10张房卡</span>
+        </li>
+        <li>
+            <p>可口薯条</p>
+            <h3>150元</h3>
+            <span>获得50张房卡</span>
+        </li>
+    </ul>
+    <div class="should-pay">应付金额：<span>0</span>&nbsp;&nbsp;元</div>
+    <div class="ljcz-btn tc">
+        <button>立即充值</button>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script>
+    $('.cz-list li').each(function (){
+
+        $(this).on('click',function (){
+            $('.cz-list li').removeClass();
+            $(this).addClass('active');
+        });
+    });
+</script>
+</body>
+</html>

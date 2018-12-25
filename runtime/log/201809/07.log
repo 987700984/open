@@ -1,0 +1,851 @@
+---------------------------------------------------------------
+[ 2018-09-07T16:12:52+08:00 ] 127.0.0.1 GET /
+[ info ] lin.com/ [运行时间：0.393022s][吞吐率：2.54req/s] [内存消耗：1,443.57kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:12:52+08:00 ] 127.0.0.1 GET /admin/login/checkverify.html
+[ info ] lin.com/admin/login/checkverify.html [运行时间：0.150009s][吞吐率：6.67req/s] [内存消耗：1,444.84kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/checkverify_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checkVerify[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:01+08:00 ] 127.0.0.1 POST /admin/login/dologin.html
+[ info ] lin.com/admin/login/dologin.html [运行时间：0.744043s][吞吐率：1.34req/s] [内存消耗：2,528.11kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/dologin_html' => '',
+  'username' => 'admin',
+  'password' => '123',
+  'code' => '57fr',
+)
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:01+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] lin.com/admin/index/index.html [运行时间：0.310018s][吞吐率：3.23req/s] [内存消耗：2,504.22kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:02+08:00 ] 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] lin.com/admin/index/indexpage.html [运行时间：0.341020s][吞吐率：2.93req/s] [内存消耗：2,496.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'user_all',
+  5 => 'user_today_reg',
+  6 => 'money',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:03+08:00 ] 127.0.0.1 POST /admin/index/yonghu.html
+[ info ] lin.com/admin/index/yonghu.html [运行时间：0.983057s][吞吐率：1.02req/s] [内存消耗：2,508.42kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'yonghu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/yonghu_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->yonghu[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:05+08:00 ] 127.0.0.1 POST /admin/index/tixian.html
+[ info ] lin.com/admin/index/tixian.html [运行时间：1.606092s][吞吐率：0.62req/s] [内存消耗：2,560.37kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tixian',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/tixian_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->tixian[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:07+08:00 ] 127.0.0.1 POST /admin/index/dingdan.html
+[ info ] lin.com/admin/index/dingdan.html [运行时间：3.532202s][吞吐率：0.28req/s] [内存消耗：2,509.84kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'dingdan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/dingdan_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->dingdan[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:08+08:00 ] 127.0.0.1 POST /admin/index/huigou.html
+[ info ] lin.com/admin/index/huigou.html [运行时间：4.695269s][吞吐率：0.21req/s] [内存消耗：2,497.38kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'huigou',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/huigou_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->huigou[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:14+08:00 ] 127.0.0.1 GET /admin/share/index.html
+[ info ] lin.com/admin/share/index.html [运行时间：0.250014s][吞吐率：4.00req/s] [内存消耗：2,461.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'share',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/share/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Share->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Share.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\share\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'soretype',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:14+08:00 ] 127.0.0.1 GET /admin/share/index?pageNumber=1&pageSize=10&searchText=0
+[ info ] lin.com/admin/share/index?pageNumber=1&pageSize=10&searchText=0 [运行时间：0.529030s][吞吐率：1.89req/s] [内存消耗：2,468.26kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'share',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/share/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Share->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Share.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:15+08:00 ] 127.0.0.1 GET /uploads/share/20180801/7a43a44c542fcccb2faf47188ecb1056.png
+[ info ] lin.com/uploads/share/20180801/7a43a44c542fcccb2faf47188ecb1056.png [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,149.43kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180801',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180801/7a43a44c542fcccb2faf47188ecb1056_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:15+08:00 ] 127.0.0.1 GET /uploads/share/20180731/0dd3bbb241ec00edd0ac031c509c5032.jpeg
+[ info ] lin.com/uploads/share/20180731/0dd3bbb241ec00edd0ac031c509c5032.jpeg [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：1,149.42kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180731',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180731/0dd3bbb241ec00edd0ac031c509c5032_jpeg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:16+08:00 ] 127.0.0.1 GET /uploads/share/20180802/8f4d6e9398778d623db9b21e05a22f11.png
+[ info ] lin.com/uploads/share/20180802/8f4d6e9398778d623db9b21e05a22f11.png [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,149.43kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180802',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180802/8f4d6e9398778d623db9b21e05a22f11_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:16+08:00 ] 127.0.0.1 GET /uploads/share/20180731/e18587a2bad6f170af16439f69ba7bfd.jpeg
+[ info ] lin.com/uploads/share/20180731/e18587a2bad6f170af16439f69ba7bfd.jpeg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,149.42kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180731',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180731/e18587a2bad6f170af16439f69ba7bfd_jpeg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:33+08:00 ] 127.0.0.1 GET /admin/share/shareedit/id/5.html
+[ info ] lin.com/admin/share/shareedit/id/5.html [运行时间：0.352020s][吞吐率：2.84req/s] [内存消耗：2,701.27kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'share',
+    2 => 'shareedit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/share/shareedit/id/5_html' => '',
+  'id' => '5',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Share->shareedit[ D:\PHPTutorial\WWW\open\application\admin\controller\Share.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\share\shareedit.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'soretype',
+  5 => 'share',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:40+08:00 ] 127.0.0.1 GET /admin/share/index.html
+[ info ] lin.com/admin/share/index.html [运行时间：0.223013s][吞吐率：4.48req/s] [内存消耗：2,461.28kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'share',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/share/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Share->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Share.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\share\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'soretype',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:41+08:00 ] 127.0.0.1 GET /admin/share/index?pageNumber=1&pageSize=10&searchText=0
+[ info ] lin.com/admin/share/index?pageNumber=1&pageSize=10&searchText=0 [运行时间：0.314018s][吞吐率：3.18req/s] [内存消耗：2,468.26kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'share',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/share/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '0',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Share->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Share.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:41+08:00 ] 127.0.0.1 GET /uploads/share/20180802/8f4d6e9398778d623db9b21e05a22f11.png
+[ info ] lin.com/uploads/share/20180802/8f4d6e9398778d623db9b21e05a22f11.png [运行时间：0.036002s][吞吐率：27.78req/s] [内存消耗：1,149.43kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180802',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180802/8f4d6e9398778d623db9b21e05a22f11_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:41+08:00 ] 127.0.0.1 GET /uploads/share/20180802/88660da846b6ef9b5088c1267f02b37b.png
+[ info ] lin.com/uploads/share/20180802/88660da846b6ef9b5088c1267f02b37b.png [运行时间：0.038002s][吞吐率：26.31req/s] [内存消耗：1,149.43kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180802',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180802/88660da846b6ef9b5088c1267f02b37b_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:41+08:00 ] 127.0.0.1 GET /uploads/share/20180801/7a43a44c542fcccb2faf47188ecb1056.png
+[ info ] lin.com/uploads/share/20180801/7a43a44c542fcccb2faf47188ecb1056.png [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：1,149.43kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180801',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180801/7a43a44c542fcccb2faf47188ecb1056_png' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:42+08:00 ] 127.0.0.1 GET /uploads/share/20180731/0dd3bbb241ec00edd0ac031c509c5032.jpeg
+[ info ] lin.com/uploads/share/20180731/0dd3bbb241ec00edd0ac031c509c5032.jpeg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,149.42kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180731',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180731/0dd3bbb241ec00edd0ac031c509c5032_jpeg' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-09-07T16:13:42+08:00 ] 127.0.0.1 GET /uploads/share/20180731/e18587a2bad6f170af16439f69ba7bfd.jpeg
+[ info ] lin.com/uploads/share/20180731/e18587a2bad6f170af16439f69ba7bfd.jpeg [运行时间：0.034002s][吞吐率：29.41req/s] [内存消耗：1,149.42kb] [文件加载：39]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'uploads',
+    1 => 'share',
+    2 => '20180731',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=d69238etg38vi9ce1727fdbkf3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/share/index.html',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/uploads/share/20180731/e18587a2bad6f170af16439f69ba7bfd_jpeg' => '',
+)
+[ info ] [ LOG ] INIT File

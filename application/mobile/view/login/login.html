@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>成为代理</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="__CSS__/cssreset-min.css">
+    <link rel="stylesheet" href="__3RD__/skin/default/layer.css">
+    <link rel="stylesheet" href="__CSS__/style.css">
+
+    <script>
+        window.onload = function () {
+            (function () {
+                var w = document.documentElement.clientWidth;
+                if (w <= 720) {
+                    document.documentElement.style.fontSize = w / 12 + 'px';
+                } else {
+                    document.body.style.width = '720px';
+                    document.body.style.margin = '0 auto';
+                    document.documentElement.style.fontSize = 720 / 12 + 'px';
+                }
+            })();
+        };
+    </script>
+
+</head>
+<body>
+<div class="yy-wrap">
+
+    <div class="file-form">
+
+
+          <form class="form-horizontal m-t" id="form-msg" method="post" action="{:url('Login/login')}" onsubmit="return toVaild()">
+
+            <div class="wechat-wrap">
+                <label for="wechat">用户名</label>
+                <input type="text" name="username" id="username" placeholder="请输入用户名" value="{$username}" required>
+            </div>
+
+             <div class="wechat-wrap">
+                <label for="wechat">密码</label>
+                <input type="password" name="password" id="password" placeholder="请输入密码" required>
+            </div>
+            <p>还没用户？<a href="{:url('Beagent/index')}">注册用户</a></p>  
+			<!--
+            <div class="yzm-wrap">
+                <label for="yzm">验证码</label>
+                <input type="text" name="yzm" id="yzm" placeholder="请输入验证码" required>
+                <img src="{:url('checkVerify')}" onclick="javascript:this.src='{:url('checkVerify')}?tm='+Math.random();" alt="验证码"/>
+            </div>
+            -->
+            <div class="sub-btn" style="margin: 40px 0;">
+                <input type="submit" value="登录">
+            </div>
+        </form>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script src="__3RD__/layer.js"></script>
+<script type="text/javascript" src="__JS__/jquery.validate.js"></script>
+<script type="text/javascript" src="__JS__/jquery.citys.js"></script>
+
+<script>
+    function toVaild(){
+        var url = "{:url('Login/login')}";
+        $.ajax({
+            type:"POST",
+            url:url,
+            data:{'data' : $('#form-msg').serialize()},// 你的formid
+            async: false,
+            success: function(data) {
+                if(data.code!=1){
+                  layer.msg(""+data.msg+"");
+                   return false;
+                }else{
+                    layer.msg(""+data.msg+"");
+                    setInterval(function(){
+                        window.location.href=data.data;
+                    },2000);    
+                }
+
+            }
+        });
+
+        return false;
+    }
+
+
+
+</script>
+
+</body>
+</html>

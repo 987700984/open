@@ -1,0 +1,1325 @@
+---------------------------------------------------------------
+[ 2018-08-10T10:27:08+08:00 ] 127.0.0.1 POST /api/agent/agent_charge
+[ info ] lin.com/api/agent/agent_charge [运行时间：1.108063s][吞吐率：0.90req/s] [内存消耗：2,529.55kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'agent_charge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------035571272653831347120473',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '5bd41c1e-f256-4dd9-9e70-577e505d6348',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/agent_charge' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'num' => '1000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->agent_charge[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:05+08:00 ] 127.0.0.1 GET /
+[ info ] lin.com/ [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：1,447.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:05+08:00 ] 127.0.0.1 GET /admin/login/checkverify.html
+[ info ] lin.com/admin/login/checkverify.html [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：1,446.44kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/checkverify_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checkVerify[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:12+08:00 ] 127.0.0.1 POST /admin/login/dologin.html
+[ info ] lin.com/admin/login/dologin.html [运行时间：0.052003s][吞吐率：19.23req/s] [内存消耗：1,404.93kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '34',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/dologin_html' => '',
+  'username' => 'admin',
+  'password' => '03vj',
+  'code' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:17+08:00 ] 127.0.0.1 GET /admin/login/checkverify.html?tm=0.8354023805822908
+[ info ] lin.com/admin/login/checkverify.html?tm=0.8354023805822908 [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：1,446.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/checkverify_html' => '',
+  'tm' => '0.8354023805822908',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checkVerify[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:20+08:00 ] 127.0.0.1 GET /admin/login/checkverify.html?tm=0.2868186651976947
+[ info ] lin.com/admin/login/checkverify.html?tm=0.2868186651976947 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：1,446.64kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/checkverify_html' => '',
+  'tm' => '0.2868186651976947',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checkVerify[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:25+08:00 ] 127.0.0.1 POST /admin/login/dologin.html
+[ info ] lin.com/admin/login/dologin.html [运行时间：0.440025s][吞吐率：2.27req/s] [内存消耗：2,418.35kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/dologin_html' => '',
+  'username' => 'admin',
+  'password' => '123',
+  'code' => 'fz8c',
+)
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:25+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] lin.com/admin/index/index.html [运行时间：0.260015s][吞吐率：3.85req/s] [内存消耗：2,454.48kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:25+08:00 ] 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] lin.com/admin/index/indexpage.html [运行时间：0.375021s][吞吐率：2.67req/s] [内存消耗：2,470.74kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'user_all',
+  5 => 'user_today_reg',
+  6 => 'money',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:27+08:00 ] 127.0.0.1 POST /admin/index/yonghu.html
+[ info ] lin.com/admin/index/yonghu.html [运行时间：0.883050s][吞吐率：1.13req/s] [内存消耗：2,428.05kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'yonghu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/yonghu_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->yonghu[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:28+08:00 ] 127.0.0.1 POST /admin/index/tixian.html
+[ info ] lin.com/admin/index/tixian.html [运行时间：1.193068s][吞吐率：0.84req/s] [内存消耗：2,442.31kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tixian',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/tixian_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->tixian[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:29+08:00 ] 127.0.0.1 POST /admin/index/huigou.html
+[ info ] lin.com/admin/index/huigou.html [运行时间：1.962112s][吞吐率：0.51req/s] [内存消耗：2,432.64kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'huigou',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/huigou_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->huigou[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:29:31+08:00 ] 127.0.0.1 POST /admin/index/dingdan.html
+[ info ] lin.com/admin/index/dingdan.html [运行时间：3.717212s][吞吐率：0.27req/s] [内存消耗：2,431.29kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'dingdan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/dingdan_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->dingdan[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:36:03+08:00 ] 127.0.0.1 POST /api/shop/money_pay
+[ info ] lin.com/api/shop/money_pay [运行时间：0.148008s][吞吐率：6.76req/s] [内存消耗：2,179.66kb] [文件加载：54]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'shop',
+    2 => 'money_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------159992897158503867514938',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'ede59a89-2a35-4a4f-aac7-082f127f39b8',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/shop/money_pay' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'orderid' => '2',
+  'password' => 'a987700984',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Shop->money_pay[ D:\PHPTutorial\WWW\open\application\api\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:36:39+08:00 ] 127.0.0.1 POST /api/shop/money_pay
+[ info ] lin.com/api/shop/money_pay [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：1,542.73kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'shop',
+    2 => 'money_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------575304578430372984849707',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'da86b946-11ac-42b2-97e4-0357f28b0bb9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/shop/money_pay' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'orderid' => '2',
+  'password' => 'a987700984',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Shop->money_pay[ D:\PHPTutorial\WWW\open\application\api\controller\Shop.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:37:05+08:00 ] 127.0.0.1 POST /api/shop/money_pay
+[ info ] lin.com/api/shop/money_pay [运行时间：0.216013s][吞吐率：4.63req/s] [内存消耗：2,429.80kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'shop',
+    2 => 'money_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------822943226205959357083533',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'a87f40ba-063e-4534-88ef-bcbea1c00e24',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/shop/money_pay' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'orderid' => '2',
+  'password' => 'a987700984',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Shop->money_pay[ D:\PHPTutorial\WWW\open\application\api\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: app\api\controller\Shop::$sid[D:\PHPTutorial\WWW\open\application\api\controller\Shop.php:870]
+---------------------------------------------------------------
+[ 2018-08-10T11:39:10+08:00 ] 127.0.0.1 POST /api/shop/money_pay
+[ info ] lin.com/api/shop/money_pay [运行时间：0.443025s][吞吐率：2.26req/s] [内存消耗：2,399.41kb] [文件加载：56]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'shop',
+    2 => 'money_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------904435700246168003078234',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'd7131966-71f9-4c81-94d0-e060e18d00a9',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/shop/money_pay' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'orderid' => '2',
+  'password' => 'a987700984',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Shop->money_pay[ D:\PHPTutorial\WWW\open\application\api\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:39:49+08:00 ] 127.0.0.1 POST /api/shop/money_pay
+[ info ] lin.com/api/shop/money_pay [运行时间：0.361021s][吞吐率：2.77req/s] [内存消耗：2,418.98kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'shop',
+    2 => 'money_pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------927506469216960839723760',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '7a70ea17-eeab-43be-8242-e45c4485ba0b',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/shop/money_pay' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'orderid' => '2',
+  'password' => 'a987700984',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Shop->money_pay[ D:\PHPTutorial\WWW\open\application\api\controller\Shop.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:58:22+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] lin.com/admin/index/index.html [运行时间：0.164009s][吞吐率：6.10req/s] [内存消耗：2,454.62kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:58:22+08:00 ] 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] lin.com/admin/index/indexpage.html [运行时间：0.345020s][吞吐率：2.90req/s] [内存消耗：2,647.51kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'user_all',
+  5 => 'user_today_reg',
+  6 => 'money',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:58:23+08:00 ] 127.0.0.1 POST /admin/index/yonghu.html
+[ info ] lin.com/admin/index/yonghu.html [运行时间：0.949054s][吞吐率：1.05req/s] [内存消耗：2,428.13kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'yonghu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/yonghu_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->yonghu[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:58:25+08:00 ] 127.0.0.1 POST /admin/index/tixian.html
+[ info ] lin.com/admin/index/tixian.html [运行时间：1.452083s][吞吐率：0.69req/s] [内存消耗：2,442.38kb] [文件加载：59]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'tixian',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/tixian_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->tixian[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:58:26+08:00 ] 127.0.0.1 POST /admin/index/huigou.html
+[ info ] lin.com/admin/index/huigou.html [运行时间：2.189125s][吞吐率：0.46req/s] [内存消耗：2,432.71kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'huigou',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/huigou_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->huigou[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T11:58:31+08:00 ] 127.0.0.1 POST /admin/index/dingdan.html
+[ info ] lin.com/admin/index/dingdan.html [运行时间：6.937397s][吞吐率：0.14req/s] [内存消耗：2,431.36kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'dingdan',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/indexpage.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '14',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/dingdan_html' => '',
+  'type' => '3',
+  'month' => '1',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->dingdan[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:07:41+08:00 ] 127.0.0.1 GET /admin/agent/money_log.html
+[ info ] lin.com/admin/agent/money_log.html [运行时间：0.246014s][吞吐率：4.06req/s] [内存消耗：2,482.68kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'agent',
+    2 => 'money_log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/agent/money_log_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Agent->money_log[ D:\PHPTutorial\WWW\open\application\admin\controller\Agent.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\agent\money_log.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'coin',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:07:42+08:00 ] 127.0.0.1 GET /admin/agent/money_log?pageNumber=1&pageSize=10&type=&phone=
+[ info ] lin.com/admin/agent/money_log?pageNumber=1&pageSize=10&type=&phone= [运行时间：1.145065s][吞吐率：0.87req/s] [内存消耗：2,615.63kb] [文件加载：63]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'agent',
+    2 => 'money_log',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000; PHPSESSID=t8i4d2cene0o0m9locm999toq5',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/agent/money_log.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/agent/money_log' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'type' => '',
+  'phone' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Agent->money_log[ D:\PHPTutorial\WWW\open\application\admin\controller\Agent.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:18:46+08:00 ] 127.0.0.1 POST /api/agent/agent_charge
+[ info ] lin.com/api/agent/agent_charge [运行时间：0.968055s][吞吐率：1.03req/s] [内存消耗：2,528.39kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'agent_charge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------594916431660814377721435',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '78a884b5-7919-40bd-8d9b-4903d06acdaf',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/agent_charge' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'num' => '1000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->agent_charge[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:21:24+08:00 ] 127.0.0.1 POST /api/agent/agent_charge
+[ info ] lin.com/api/agent/agent_charge [运行时间：0.956054s][吞吐率：1.05req/s] [内存消耗：2,528.43kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'agent_charge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------614723805346219725782954',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '41bab9ac-62cc-4024-93b5-1ab73b787f9c',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/agent_charge' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'num' => '1000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->agent_charge[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:22:01+08:00 ] 127.0.0.1 POST /api/agent/agent_charge
+[ info ] lin.com/api/agent/agent_charge [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：2,430.14kb] [文件加载：56]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'agent_charge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------816908111128687170063043',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '45113368-479d-4463-9eea-d4296789a3d7',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/agent_charge' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'num' => '1000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->agent_charge[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:22:36+08:00 ] 127.0.0.1 POST /api/agent/agent_charge
+[ info ] lin.com/api/agent/agent_charge [运行时间：0.986056s][吞吐率：1.01req/s] [内存消耗：2,528.39kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'agent_charge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------506578637450105804480314',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '0d0a16be-6803-479e-8e3b-d38752106147',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/agent_charge' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'num' => '1000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->agent_charge[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-10T14:23:11+08:00 ] 127.0.0.1 POST /api/agent/agent_charge
+[ info ] lin.com/api/agent/agent_charge [运行时间：1.084062s][吞吐率：0.92req/s] [内存消耗：2,529.56kb] [文件加载：65]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'agent_charge',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------128580177461454152648973',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'be5a220a-06b6-4170-83ce-effbaa45d496',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/agent_charge' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'num' => '1000',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->agent_charge[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File

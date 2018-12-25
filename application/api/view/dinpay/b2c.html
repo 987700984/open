@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>二加一游戏B2C在线支付</title>
+</head>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="__CSS__/style.css">
+<script>
+    window.onload = function () {
+        (function () {
+            var w = document.documentElement.clientWidth;
+            if (w <= 720) {
+                document.documentElement.style.fontSize = w / 12 + 'px';
+            } else {
+                document.body.style.width = '100%';
+                document.body.style.margin = '0 auto';
+                document.documentElement.style.fontSize = 720 / 12 + 'px';
+            }
+        })();
+    };
+</script>
+<body>
+
+<div class="yxcz-wrap">
+    <div class="header">游戏充值</div>
+    <div class="notice">
+        <span>小提示：</span>
+        <p>1、成功购买后房卡直接充值到游戏中，暂不支持微信支付。</p>
+        <p>2、PC或手机浏览器请访问：admin.2j1.com/api/dinpay/b2c</p>
+    </div>
+    <ul class="cz-list clearfix">     
+        {if !empty($goods)}
+        {foreach name="goods" item="vo"}
+            <li data-goodsprice="{$vo.goodsprice}" data-goodsname="{$vo.goodsname}" data-goodsid="{$vo.goodsid}">
+            <p>{$vo.goodsname}</p>
+            <h3>{$vo.goodsprice}元</h3>
+            <span>购买{$vo.goodsnum}张送{$vo.goodsnumgive}张</span>      
+        {/foreach}
+        {/if}     
+    </ul>
+    <div id="goodsid" style="display:none;">{$goods2['goodsid']}</div>
+	<form id="dinpayForm" name="dinpayForm" method="post" action="https://pay.dinpay.com/gateway?input_charset=UTF-8" target="_blank" >
+
+		<span style="display:none;">sign：</span><input type="hidden" name="sign" id="sign" value="{$postdata.sign}" /> 
+		<span style="display:none;">merchant_code：</span><input type="hidden" name="merchant_code" value="{$postdata.merchant_code}" /> 
+		<span style="display:none;">bank_code：</span><input type="hidden" name="bank_code" value="{$postdata.bank_code}" />
+		<div style="display:none;" class="form-group">
+	        <label class="col-sm-1 control-label">订单号：</label>
+	        <div class="input-group col-sm-4">
+	            <input id="order_no" type="text" class="form-control" name="order_no" required="" aria-required="true" value="{$postdata.order_no}" readonly="readonly">
+	        </div>
+	    </div> 
+		<span style="display:none;">service_type：</span><input type="hidden" name="service_type" value="{$postdata.service_type}" /> 
+		<span style="display:none;">input_charset：</span><input type="hidden" name="input_charset" value="{$postdata.input_charset}" /> 
+		<span style="display:none;">notify_url：</span><input type="hidden" name="notify_url" value="{$postdata.notify_url}">
+		<span style="display:none;">interface_version：</span><input type="hidden" name="interface_version" value="{$postdata.interface_version}" />
+		<span style="display:none;">sign_type：</span><input type="hidden" name="sign_type" value="{$postdata.sign_type}" /> 
+		<span style="display:none;">order_time：</span><input type="hidden" name="order_time" value="{$postdata.order_time}" />
+		<span style="display:none;">产品名称：</span><input type="hidden" id="product_name" name="product_name" value="{$goods2['goodsname']}" /> 
+		<span style="display:none;">client_ip：</span><input Type="hidden" Name="client_ip" value="{$postdata.client_ip}" />
+		<span style="display:none;">extend_param：</span><input Type="hidden" Name="extend_param" value="{$postdata.extend_param}" /> 
+		<div class="should-pay">userid：<input style="border:1px solid rgba(34,36,38,.15)" Type="text" id="extra_return_param" Name="extra_return_param" value="{$postdata.extra_return_param}" required="" aria-required="true" /></div>
+		<span style="display:none;">pay_type：</span><input Type="hidden" Name="pay_type" value="{$postdata.pay_type}" />
+		<span style="display:none;">product_code：</span><input Type="hidden" Name="product_code" value="{$postdata.product_code}" /> 
+		<span style="display:none;">product_desc：</span><input Type="hidden" Name="product_desc" value="{$postdata.product_desc}" /> 
+		<span style="display:none;">product_num：</span><input Type="hidden" Name="product_num" value="{$postdata.product_num}" />
+		<span style="display:none;">return_url：</span><input Type="hidden" Name="return_url" value="{$postdata.return_url}" /> 
+		<span style="display:none;">show_url：</span><input Type="hidden" Name="show_url" value="{$postdata.show_url}" />
+		<span style="display:none;">redo_flag：</span><input Type="hidden" Name="redo_flag" value="{$postdata.redo_flag}" />
+	    <div style="display:none;"class="should-pay">应付金额：<input type="hidden" id="order_amount" name="order_amount" value="{$goods2['goodsprice']}" />&nbsp;元</div>
+  
+	    <div class="ljcz-btn tc">
+	        <button type="submit" onclick="return userIdverify();">立即充值</button>
+	    </div>
+    </form>
+
+</div>
+<script src="__ADMINJS__/jquery.min.js?v=2.1.4"></script>
+<script src="__ADMINJS__/bootstrap.min.js?v=3.3.6"></script>
+<script src="__ADMINJS__/content.min.js?v=1.0.0"></script>
+<script src="__ADMINJS__/plugins/validate/jquery.validate.min.js"></script>
+<script src="__ADMINJS__/plugins/validate/messages_zh.min.js"></script>
+<script src="__ADMINJS__/plugins/iCheck/icheck.min.js"></script>
+<script src="__ADMINJS__/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="__ADMINJS__/plugins/layer/laydate/laydate.js"></script>
+<script src="__ADMINJS__/plugins/suggest/bootstrap-suggest.min.js"></script>
+<script src="__ADMINJS__/plugins/layer/layer.min.js"></script>
+<script>
+$('.cz-list li').each(function (){
+    $(this).on('click',function (){
+        $('.cz-list li').removeClass();
+        $(this).addClass('active');
+        $('#order_amount').val($(this).data('goodsprice'));
+        $('#product_name').val($(this).data('goodsname')); 
+        $('#goodsid').text($(this).data('goodsid'));
+        toVaild();
+    });
+});
+
+function toVaild(){
+    var jz;
+    var url = "./b2cInitialize/goodsid/"+$('#goodsid').text();
+    $.ajax({
+        type:"POST",
+        url:url,
+        data:{'data' : $('#dinpayForm').serialize()},
+        async: false,
+        beforeSend:function(){
+        },
+        error: function(request) {
+            alert("网络错误!");
+        },
+        success: function(data) {
+            if(data.data == 0){
+            	$('#sign').val(data.sign);
+            }else{
+            	alert("userid不存在!");
+            	return;
+            }
+        	
+        }
+    });
+    return false;
+}
+
+function userIdverify(){
+	if($('#extra_return_param').val()==""){
+	    alert('userid不能为空！');
+	    return false;
+	}else{
+		toVaild();
+	}
+}
+</script>
+</body>
+</html>

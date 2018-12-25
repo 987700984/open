@@ -1,0 +1,36 @@
+<?php
+// +----------------------------------------------------------------------
+// | 互联在线
+// +----------------------------------------------------------------------
+// | Copyright (c) 2016~2022 http://www.hlzx.com/ All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
+// +----------------------------------------------------------------------
+// | Author: arno <1065800888@qq.com>
+// +----------------------------------------------------------------------
+namespace app\api\model;
+
+use think\Model;
+
+class AgentLevel extends Model
+{
+
+
+
+
+    /**
+     * 与agent表关联
+     * @param $param
+     */
+    public function agent()
+    {
+        return $this->hasMany('UserAgent','level','level');
+    }
+
+
+
+
+
+
+
+}

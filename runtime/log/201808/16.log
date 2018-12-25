@@ -1,0 +1,168 @@
+---------------------------------------------------------------
+[ 2018-08-16T15:08:54+08:00 ] 127.0.0.1 POST /api/agent/author_agent
+[ info ] lin.com/api/agent/author_agent [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：1,786.17kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'author_agent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '272',
+  'content-type' => 'multipart/form-data; boundary=--------------------------642586718199567041613057',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '1941f8ff-7f9f-42a5-a344-2f58e4ad4f99',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/author_agent' => '',
+  'phone' => '2',
+  '15914369888' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->author_agent[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: level_id[D:\PHPTutorial\WWW\open\application\api\controller\Agent.php:287]
+---------------------------------------------------------------
+[ 2018-08-16T15:09:08+08:00 ] 127.0.0.1 POST /api/agent/author_agent
+[ info ] lin.com/api/agent/author_agent [运行时间：0.305018s][吞吐率：3.28req/s] [内存消耗：2,459.63kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'author_agent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '280',
+  'content-type' => 'multipart/form-data; boundary=--------------------------509162759466950456080571',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'acdfbafc-1507-4bed-81f9-d0cfc16138ac',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/author_agent' => '',
+  'phone' => '15914369888',
+  'level_id' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->author_agent[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T15:09:37+08:00 ] 127.0.0.1 POST /api/agent/author_agent
+[ info ] lin.com/api/agent/author_agent [运行时间：0.402023s][吞吐率：2.49req/s] [内存消耗：2,492.54kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'author_agent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '280',
+  'content-type' => 'multipart/form-data; boundary=--------------------------292625307995915729208273',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '982d5d19-cf0e-4ba8-972a-945293f91cba',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/author_agent' => '',
+  'phone' => '15914369888',
+  'level_id' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->author_agent[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-16T18:16:05+08:00 ] 127.0.0.1 POST /api/agent/author_agent
+[ info ] lin.com/api/agent/author_agent [运行时间：0.406024s][吞吐率：2.46req/s] [内存消耗：2,455.16kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'author_agent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '280',
+  'content-type' => 'multipart/form-data; boundary=--------------------------909161969125458822184334',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'e2c46333-9a88-49da-8ce4-a62ea5f234ed',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/author_agent' => '',
+  'phone' => '15914369888',
+  'level_id' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->author_agent[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,2766 @@
+---------------------------------------------------------------
+[ 2018-12-20T10:00:24+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.433024s][吞吐率：2.31req/s] [内存消耗：1,498.00kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined method QL\QueryList::get()[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:68]
+---------------------------------------------------------------
+[ 2018-12-20T10:00:56+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：1,499.63kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Non-static method QL\QueryList::getHtml() should not be called statically[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:68]
+---------------------------------------------------------------
+[ 2018-12-20T10:17:37+08:00 ] 127.0.0.1 GET /api/feixiao/jinse
+[ info ] lin.com/api/feixiao/jinse [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：1,190.88kb] [文件加载：42]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiao/jinse' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:17:46+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.810046s][吞吐率：1.23req/s] [内存消耗：2,308.84kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:219]
+---------------------------------------------------------------
+[ 2018-12-20T10:18:04+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.421024s][吞吐率：2.38req/s] [内存消耗：1,567.04kb] [文件加载：45]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-20T10:19:04+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.513029s][吞吐率：1.95req/s] [内存消耗：2,309.25kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:219]
+---------------------------------------------------------------
+[ 2018-12-20T10:20:56+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.534031s][吞吐率：1.87req/s] [内存消耗：2,309.87kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:219]
+---------------------------------------------------------------
+[ 2018-12-20T10:23:56+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.654038s][吞吐率：1.53req/s] [内存消耗：2,309.41kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:219]
+---------------------------------------------------------------
+[ 2018-12-20T10:24:37+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.459026s][吞吐率：2.18req/s] [内存消耗：2,442.72kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:24:58+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.476027s][吞吐率：2.10req/s] [内存消耗：2,365.76kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:25:12+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.504029s][吞吐率：1.98req/s] [内存消耗：2,273.22kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:25:29+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.586033s][吞吐率：1.71req/s] [内存消耗：2,895.82kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:25:49+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.463027s][吞吐率：2.16req/s] [内存消耗：2,273.79kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:26:07+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.573033s][吞吐率：1.75req/s] [内存消耗：2,309.41kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:219]
+---------------------------------------------------------------
+[ 2018-12-20T10:27:39+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.536031s][吞吐率：1.87req/s] [内存消耗：2,332.86kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:220]
+---------------------------------------------------------------
+[ 2018-12-20T10:28:09+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.499028s][吞吐率：2.00req/s] [内存消耗：2,273.93kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:30:33+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.609035s][吞吐率：1.64req/s] [内存消耗：2,273.94kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:32:55+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.495029s][吞吐率：2.02req/s] [内存消耗：2,280.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:33:06+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.521029s][吞吐率：1.92req/s] [内存消耗：2,279.16kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T10:33:27+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.515030s][吞吐率：1.94req/s] [内存消耗：2,280.53kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:19:34+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.777044s][吞吐率：1.29req/s] [内存消耗：2,207.68kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:20:16+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：1.386079s][吞吐率：0.72req/s] [内存消耗：2,207.14kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:20:58+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.664038s][吞吐率：1.51req/s] [内存消耗：2,282.98kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:21:21+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.783045s][吞吐率：1.28req/s] [内存消耗：2,207.14kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:21:37+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：5.249301s][吞吐率：0.19req/s] [内存消耗：2,325.74kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:21:52+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.780045s][吞吐率：1.28req/s] [内存消耗：2,206.42kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:22:49+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：6.065347s][吞吐率：0.16req/s] [内存消耗：3,260.74kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:23:26+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.719041s][吞吐率：1.39req/s] [内存消耗：2,228.87kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:24:04+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：5.105292s][吞吐率：0.20req/s] [内存消耗：3,144.71kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:24:20+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：5.900338s][吞吐率：0.17req/s] [内存消耗：2,193.83kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:24:29+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：5.068290s][吞吐率：0.20req/s] [内存消耗：2,271.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:26:47+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：5.983342s][吞吐率：0.17req/s] [内存消耗：2,271.63kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:27:14+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：5.538317s][吞吐率：0.18req/s] [内存消耗：2,271.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:28:42+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：6.561376s][吞吐率：0.15req/s] [内存消耗：2,271.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:29:20+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：6.448368s][吞吐率：0.16req/s] [内存消耗：2,271.10kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:30:28+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：6.504372s][吞吐率：0.15req/s] [内存消耗：2,271.10kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:42:49+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：1.357078s][吞吐率：0.74req/s] [内存消耗：2,328.06kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:44:35+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.948054s][吞吐率：1.05req/s] [内存消耗：2,363.65kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:45:20+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.816046s][吞吐率：1.23req/s] [内存消耗：2,207.91kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:50:16+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.676038s][吞吐率：1.48req/s] [内存消耗：2,207.73kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:50:30+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：8.834505s][吞吐率：0.11req/s] [内存消耗：2,260.48kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:50:54+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.835048s][吞吐率：1.20req/s] [内存消耗：2,364.19kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:51:21+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.664038s][吞吐率：1.51req/s] [内存消耗：2,363.42kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:51:38+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.806046s][吞吐率：1.24req/s] [内存消耗：2,355.64kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:52:09+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：12.187697s][吞吐率：0.08req/s] [内存消耗：4,715.90kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:56:01+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.874050s][吞吐率：1.14req/s] [内存消耗：2,199.94kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T11:58:13+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.740043s][吞吐率：1.35req/s] [内存消耗：2,207.02kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组索引: wordcount[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:91]
+---------------------------------------------------------------
+[ 2018-12-20T11:58:51+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.813047s][吞吐率：1.23req/s] [内存消耗：2,355.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T11:59:58+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.675039s][吞吐率：1.48req/s] [内存消耗：2,363.34kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T12:00:05+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.728042s][吞吐率：1.37req/s] [内存消耗：2,206.49kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组索引: wordcount[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:91]
+---------------------------------------------------------------
+[ 2018-12-20T12:00:34+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.818047s][吞吐率：1.22req/s] [内存消耗：2,198.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组索引: wordcount[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:91]
+---------------------------------------------------------------
+[ 2018-12-20T12:01:04+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.911052s][吞吐率：1.10req/s] [内存消耗：2,275.91kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T12:01:24+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.709040s][吞吐率：1.41req/s] [内存消耗：2,207.14kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组索引: autho[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:92]
+---------------------------------------------------------------
+[ 2018-12-20T12:01:34+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：1.371078s][吞吐率：0.73req/s] [内存消耗：2,208.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T12:01:52+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.873050s][吞吐率：1.15req/s] [内存消耗：2,208.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T12:02:01+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.704040s][吞吐率：1.42req/s] [内存消耗：2,276.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T12:03:25+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.848048s][吞吐率：1.18req/s] [内存消耗：2,208.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T12:04:21+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.760044s][吞吐率：1.32req/s] [内存消耗：2,208.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T12:05:51+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.907052s][吞吐率：1.10req/s] [内存消耗：2,208.99kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T12:06:07+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.698040s][吞吐率：1.43req/s] [内存消耗：2,208.44kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:02:40+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.747043s][吞吐率：1.34req/s] [内存消耗：2,200.98kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:03:11+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.762044s][吞吐率：1.31req/s] [内存消耗：2,200.44kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:08:51+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.524030s][吞吐率：1.91req/s] [内存消耗：2,310.77kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:09:03+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.472027s][吞吐率：2.12req/s] [内存消耗：2,310.40kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:09:15+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：8.031459s][吞吐率：0.12req/s] [内存消耗：4,812.07kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:09:52+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：7.871450s][吞吐率：0.13req/s] [内存消耗：4,816.84kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:11:24+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.587033s][吞吐率：1.70req/s] [内存消耗：2,311.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:11:33+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.522030s][吞吐率：1.92req/s] [内存消耗：2,310.76kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMXPath::query(): Invalid expression[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:1765]
+---------------------------------------------------------------
+[ 2018-12-20T14:12:16+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：7.972456s][吞吐率：0.13req/s] [内存消耗：4,818.27kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:15:14+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：7.832448s][吞吐率：0.13req/s] [内存消耗：4,817.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:15:55+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：8.017458s][吞吐率：0.12req/s] [内存消耗：4,818.77kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:16:38+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.475027s][吞吐率：2.11req/s] [内存消耗：2,283.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:18:20+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.560032s][吞吐率：1.79req/s] [内存消耗：2,285.09kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:18:32+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.542031s][吞吐率：1.84req/s] [内存消耗：2,286.23kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:18:45+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.558032s][吞吐率：1.79req/s] [内存消耗：2,286.25kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:19:02+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：7.831448s][吞吐率：0.13req/s] [内存消耗：4,818.83kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+---------------------------------------------------------------
+[ 2018-12-20T14:27:18+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：1.153066s][吞吐率：0.87req/s] [内存消耗：2,182.69kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [8]未定义数组下标: 0[D:\PHPTutorial\WWW\open\vendor\jaeger\querylist\QueryList.php:218]
+---------------------------------------------------------------
+[ 2018-12-20T14:30:23+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：30.126723s][吞吐率：0.03req/s] [内存消耗：3,741.40kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [1]Maximum execution time of 30 seconds exceeded[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:101]
+---------------------------------------------------------------
+[ 2018-12-20T14:31:54+08:00 ] 127.0.0.1 GET /api/feixiaohao/jinse
+[ info ] lin.com/api/feixiaohao/jinse [运行时间：0.929053s][吞吐率：1.08req/s] [内存消耗：2,348.88kb] [文件加载：50]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; pgv_pvi=7673728000',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/api/feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 90[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 8[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 9[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 10[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]

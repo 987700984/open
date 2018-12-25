@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的佣金</title>
+</head>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="__CSS__/style.css">
+<script>
+    window.onload = function () {
+        (function () {
+            var w = document.documentElement.clientWidth;
+            if (w <= 720) {
+                document.documentElement.style.fontSize = w / 12 + 'px';
+            } else {
+                document.body.style.width = '720px';
+                document.body.style.margin = '0 auto';
+                document.documentElement.style.fontSize = 720 / 12 + 'px';
+            }
+        })();
+    };
+</script>
+<style>
+    body{
+        background: #F4F4F4;
+    }
+</style>
+<body>
+<div class="commission-wrap">
+    <div class="header">
+        我的佣金
+        <a class="back" href="javascript:;"><img src="__IMG__/back.png" alt="返回"/></a>
+        <!--<a class="togo tx-detail" href="javascript:;">提现明细</a>-->
+    </div>
+    <div class="commission-main">
+       
+
+        <div class="yj-num color-red">
+            佣金总额：<span>{$countrebate}</span>元
+        </div>
+
+    </div>
+
+</div>
+<script src="__JS__/jquery.min.js"></script>
+</body>
+</html>

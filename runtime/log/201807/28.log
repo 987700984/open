@@ -1,0 +1,1356 @@
+---------------------------------------------------------------
+[ 2018-07-28T09:12:51+08:00 ] 127.0.0.1 GET /
+[ info ] lin.com/ [运行时间：0.222013s][吞吐率：4.50req/s] [内存消耗：1,538.16kb] [文件加载：47]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:12:52+08:00 ] 127.0.0.1 GET /admin/login/checkverify.html
+[ info ] lin.com/admin/login/checkverify.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：1,537.49kb] [文件加载：46]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'checkverify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/checkverify_html' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Login->checkVerify[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:13:08+08:00 ] 127.0.0.1 POST /admin/login/dologin.html
+[ info ] lin.com/admin/login/dologin.html [运行时间：0.880050s][吞吐率：1.14req/s] [内存消耗：2,517.20kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'dologin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '37',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/login/dologin_html' => '',
+  'username' => 'admin',
+  'password' => '123',
+  'code' => 'ffwy',
+)
+[ info ] [ RUN ] app\admin\controller\Login->doLogin[ D:\PHPTutorial\WWW\open\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:13:08+08:00 ] 127.0.0.1 GET /admin/index/index.html
+[ info ] lin.com/admin/index/index.html [运行时间：0.212013s][吞吐率：4.72req/s] [内存消耗：2,491.91kb] [文件加载：57]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:13:10+08:00 ] 127.0.0.1 GET /admin/index/indexpage.html
+[ info ] lin.com/admin/index/indexpage.html [运行时间：2.244128s][吞吐率：0.45req/s] [内存消耗：2,543.64kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'indexpage',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/index/indexpage_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\admin\controller\Index->indexPage[ D:\PHPTutorial\WWW\open\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/admin\view\index\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'user_all',
+  5 => 'user_today_reg',
+  6 => 'money',
+  7 => 'agent_all',
+  8 => 'agent_ing',
+  9 => 'agent_end',
+  10 => 'agent_bad',
+  11 => 'order_all',
+  12 => 'order_1',
+  13 => 'order_2',
+  14 => 'order_3',
+  15 => 'order_0',
+  16 => 'order_',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:16:48+08:00 ] 127.0.0.1 GET /shop/orders/index.html
+[ info ] lin.com/shop/orders/index.html [运行时间：0.199012s][吞吐率：5.02req/s] [内存消耗：2,486.31kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/shop\view\orders\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:16:49+08:00 ] 127.0.0.1 GET /shop/orders/index?pageNumber=1&pageSize=10&searchText=&state=
+[ info ] lin.com/shop/orders/index?pageNumber=1&pageSize=10&searchText=&state= [运行时间：0.357021s][吞吐率：2.80req/s] [内存消耗：2,546.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+  'state' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:20:24+08:00 ] 127.0.0.1 GET /shop/orders/index.html
+[ info ] lin.com/shop/orders/index.html [运行时间：0.187011s][吞吐率：5.35req/s] [内存消耗：2,486.31kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/shop\view\orders\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:20:24+08:00 ] 127.0.0.1 GET /shop/orders/index?pageNumber=1&pageSize=10&searchText=&state=
+[ info ] lin.com/shop/orders/index?pageNumber=1&pageSize=10&searchText=&state= [运行时间：0.300017s][吞吐率：3.33req/s] [内存消耗：2,546.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+  'state' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:20:28+08:00 ] 127.0.0.1 GET /shop/orders/detail/id/4.html
+[ info ] lin.com/shop/orders/detail/id/4.html [运行时间：0.286017s][吞吐率：3.50req/s] [内存消耗：2,523.21kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/detail/id/4_html' => '',
+  'id' => '4',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/shop\view\orders\detail.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+  4 => 'info',
+  5 => 'list',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:20:30+08:00 ] 127.0.0.1 GET /shop/orders/index.html
+[ info ] lin.com/shop/orders/index.html [运行时间：0.186010s][吞吐率：5.38req/s] [内存消耗：2,486.31kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/shop\view\orders\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T09:20:31+08:00 ] 127.0.0.1 GET /shop/orders/index?pageNumber=1&pageSize=10&searchText=&state=
+[ info ] lin.com/shop/orders/index?pageNumber=1&pageSize=10&searchText=&state= [运行时间：0.908051s][吞吐率：1.10req/s] [内存消耗：2,546.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+  'state' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T10:39:08+08:00 ] 127.0.0.1 GET /shop/orders/index.html
+[ info ] lin.com/shop/orders/index.html [运行时间：0.263015s][吞吐率：3.80req/s] [内存消耗：2,619.78kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/shop\view\orders\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T10:39:09+08:00 ] 127.0.0.1 GET /shop/orders/index?pageNumber=1&pageSize=10&searchText=&state=
+[ info ] lin.com/shop/orders/index?pageNumber=1&pageSize=10&searchText=&state= [运行时间：0.428024s][吞吐率：2.34req/s] [内存消耗：2,546.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+  'state' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T10:41:41+08:00 ] 127.0.0.1 GET /shop/orders/index.html
+[ info ] lin.com/shop/orders/index.html [运行时间：0.471027s][吞吐率：2.12req/s] [内存消耗：2,486.52kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index_html' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ VIEW ] D:\PHPTutorial\WWW\open\public/../application/shop\view\orders\index.html [ array (
+  0 => 'username',
+  1 => 'pic',
+  2 => 'menu',
+  3 => 'rolename',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T10:41:41+08:00 ] 127.0.0.1 GET /shop/orders/index?pageNumber=1&pageSize=10&searchText=&state=
+[ info ] lin.com/shop/orders/index?pageNumber=1&pageSize=10&searchText=&state= [运行时间：0.341020s][吞吐率：2.93req/s] [内存消耗：2,546.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+  'state' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T10:41:56+08:00 ] 127.0.0.1 POST /shop/orders/edit.html
+[ info ] lin.com/shop/orders/edit.html [运行时间：0.311018s][吞吐率：3.22req/s] [内存消耗：2,495.05kb] [文件加载：61]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://lin.com',
+  'accept' => '*/*',
+  'content-length' => '44',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/edit_html' => '',
+  'id' => '2',
+  'state' => '3',
+  'courier' => '45664645646',
+  'company' => 'YTO',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->edit[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T10:41:56+08:00 ] 127.0.0.1 GET /shop/orders/index?pageNumber=1&pageSize=10&searchText=&state=
+[ info ] lin.com/shop/orders/index?pageNumber=1&pageSize=10&searchText=&state= [运行时间：0.342019s][吞吐率：2.92req/s] [内存消耗：2,546.05kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'shop',
+    1 => 'orders',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://lin.com/shop/orders/index.html',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/shop/orders/index' => '',
+  'pageNumber' => '1',
+  'pageSize' => '10',
+  'searchText' => '',
+  'state' => '',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\shop\controller\Orders->index[ D:\PHPTutorial\WWW\open\application\shop\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T11:15:26+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：1.588090s][吞吐率：0.63req/s] [内存消耗：2,447.60kb] [文件加载：63]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------770942933511334744926613',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'c4a83957-83ba-405f-bcf0-58c2401c7c7f',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T11:15:53+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.340019s][吞吐率：2.94req/s] [内存消耗：2,447.60kb] [文件加载：63]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------439455973492205297375608',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '027b7f5a-4943-4f79-8d84-31c8a8fbf595',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T11:16:08+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.290016s][吞吐率：3.45req/s] [内存消耗：2,327.45kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------063549385548409158391991',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '78e4612f-ab89-4aac-85dc-0561026a98d5',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kuai' in 'field list'[D:\PHPTutorial\WWW\open\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-07-28T11:16:37+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.150009s][吞吐率：6.67req/s] [内存消耗：2,327.45kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------148002607808662827667736',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '72a95705-1b79-4dc5-8fd1-2b483c534484',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kuaiDi' in 'field list'[D:\PHPTutorial\WWW\open\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-07-28T11:17:29+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.476027s][吞吐率：2.10req/s] [内存消耗：2,327.45kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------852846016039867025029964',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'd5c61c6f-d069-4209-97d9-9c5d47f3df57',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'kuaidi' in 'field list'[D:\PHPTutorial\WWW\open\thinkphp\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2018-07-28T11:18:00+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.620035s][吞吐率：1.61req/s] [内存消耗：2,448.00kb] [文件加载：63]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------334057953264590387970135',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'e0eedc0e-a01c-439f-8b3a-17c53ca0cbca',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T11:21:40+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.366021s][吞吐率：2.73req/s] [内存消耗：2,447.59kb] [文件加载：63]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------261847742300769617389331',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '6fe17cd0-d9d0-419f-a3a3-7306442d50b5',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T11:21:52+08:00 ] 127.0.0.1 POST /api/orders/detail
+[ info ] lin.com/api/orders/detail [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：2,346.98kb] [文件加载：55]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'orders',
+    2 => 'detail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '436',
+  'content-type' => 'multipart/form-data; boundary=--------------------------083362372556528343699565',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=rdeopkvhitkr0shn7qveqiu1fo',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '145fe30c-d55b-4f29-a46c-87d704c9d1cb',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/orders/detail' => '',
+  'token' => 'a8aasfj2JTpX0SFR4TgKIlIyAKMUci%2FrGT49bAQBuOenxSbLZ0kFdZ8QaUTQEA6pkQjeZ8SQ%2F%2FgSkg5lHx0%2BOPT353riu8fv7sAeTpWdOW%2Bnc7xzJfqcum8agkPRlhPRDRpGgXvmoeAKFoA1oTRhfNn%2ByYbtCVqWKA',
+  'id' => '2',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\api\controller\Orders->detail[ D:\PHPTutorial\WWW\open\application\api\controller\Orders.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:47:24+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：2.322133s][吞吐率：0.43req/s] [内存消耗：2,374.33kb] [文件加载：62]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+[ error ] [2]Division by zero[D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php:40]
+---------------------------------------------------------------
+[ 2018-07-28T16:50:10+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：0.162009s][吞吐率：6.17req/s] [内存消耗：2,274.09kb] [文件加载：52]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:52:02+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：0.419023s][吞吐率：2.39req/s] [内存消耗：2,338.58kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:52:06+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：0.151009s][吞吐率：6.62req/s] [内存消耗：2,295.93kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:52:44+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：1.670096s][吞吐率：0.60req/s] [内存消耗：2,338.58kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T16:52:44+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：0.147008s][吞吐率：6.80req/s] [内存消耗：2,295.93kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-07-28T17:39:35+08:00 ] 127.0.0.1 GET /admin/tim/tim
+[ info ] lin.com/admin/tim/tim [运行时间：1.024059s][吞吐率：0.98req/s] [内存消耗：2,338.58kb] [文件加载：58]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'tim',
+    2 => 'tim',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'vsid=931vr2770930807802142; PHPSESSID=em7qngmeo3jkfkck54d524aq7g',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'lin.com',
+)
+[ info ] [ PARAM ] array (
+  '/admin/tim/tim' => '',
+)
+[ info ] [ RUN ] app\admin\controller\Tim->tim[ D:\PHPTutorial\WWW\open\application\admin\controller\Tim.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File

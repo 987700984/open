@@ -1,0 +1,29 @@
+---------------------------------------------------------------
+[ 2018-11-23T15:51:58+08:00 ] 127.0.0.1 GET /api/Feixiaohao/jinse
+[ info ] lin.com/api/Feixiaohao/jinse [运行时间：0.469027s][吞吐率：2.13req/s] [内存消耗：1,504.96kb] [文件加载：51]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Feixiaohao',
+    2 => 'jinse',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '797ad67e-4619-4847-a153-2717f716a706',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/Feixiaohao/jinse' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->jinse[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined method QL\QueryList::get()[D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php:74]

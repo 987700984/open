@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>我的代理</title>
+</head>
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" href="__CSS__/style.css">
+<script>
+    window.onload = function () {
+        (function () {
+            var w = document.documentElement.clientWidth;
+            if (w <= 720) {
+                document.documentElement.style.fontSize = w / 12 + 'px';
+            } else {
+                document.body.style.width = '720px';
+                document.body.style.margin = '0 auto';
+                document.documentElement.style.fontSize = 720 / 12 + 'px';
+            }
+        })();
+    };
+</script>
+<style>
+    body{
+        background: #F4F4F4;
+    }
+</style>
+<body>
+<div class="agent-wrap">
+    <div class="header">
+        我的代理
+        <a class="back" href="javascript:;"><img src="__IMG__/back.png" alt="返回"/></a>
+        <a class="togo zy" href="javascript:;">主页</a>
+    </div>
+    <div class="agent-main">
+        <ul class="agent-box">
+        <empty  name="agentlist">
+            <li class="zsdl">暂无数据</li>
+        <else /> 
+        {volist name="agentlist" id="vo"}
+            <li class="zsdl"><a href="{:url('Agent/agentshow',['id'=>$vo.id])}">{$vo.username} <span>({$vo.cardcount})</span> <img src="__IMG__/next_icon.png" alt="详情"/></a></li>
+        {/volist}        
+        </empty >
+
+        </ul>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

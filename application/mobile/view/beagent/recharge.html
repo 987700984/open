@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>充值成功</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="__CSS__/style.css">
+    <script>
+        window.onload = function () {
+            (function () {
+                var w = document.documentElement.clientWidth;
+                if (w <= 720) {
+                    document.documentElement.style.fontSize = w / 12 + 'px';
+                } else {
+                    document.body.style.width = '720px';
+                    document.body.style.margin = '0 auto';
+                    document.documentElement.style.fontSize = 720 / 12 + 'px';
+                }
+            })();
+        };
+    </script>
+    <style>
+        body{
+            background-color:#f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <div class="charge-wrap">
+        <div class="charge-msg">
+            <img src="__IMG__/trophy_img.png" alt="充值"/>
+            <h3>消费成功后您将获得VIP资格</h3>
+            <div class="msg-wrap clearfix">
+                <div class="area-box">
+                    <p class="p1">服务地区</p>
+                    <p class="p2">湖南</p>
+                </div>
+                <div class="fk-box">
+                    <p class="p1">获得房卡</p>
+                    <p class="p2">2000张+VIP赠1000张</p>
+                </div>
+                <div class="cash-box">
+                    <p class="p1">消费金额</p>
+                    <p class="p2">3600元</p>
+                </div>
+            </div>
+            <div class="sub-btn">
+                <button class="charge-btn">您提交的代理审核中</button>
+            </div>
+        </div>
+        <div class="charge-des">
+            <h3>说明：</h3>
+            <p>1、完善资料并消费成功，您可以获得VIP资格；</p>
+            <p>2、成为VIP后，可点击公众号右下角菜单-游戏充值-代理后台进行账户管理和赠卡等操作；</p>
+            <p>3、账号即为注册时填写的手机号。</p>
+        </div>
+    </div>
+</body>
+</html>

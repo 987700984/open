@@ -1,0 +1,86 @@
+---------------------------------------------------------------
+[ 2018-08-09T15:55:43+08:00 ] 127.0.0.1 POST /api/agent/author_agent
+[ info ] lin.com/api/agent/author_agent [运行时间：0.111006s][吞吐率：9.01req/s] [内存消耗：1,782.28kb] [文件加载：53]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'author_agent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------145877485109588594901826',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '90f2d5fc-a5bb-4b38-b166-a7f75c2539e1',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/author_agent' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'phone' => '18814118906',
+  'levle_id' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->author_agent[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: level_id[D:\PHPTutorial\WWW\open\application\api\controller\Agent.php:287]
+---------------------------------------------------------------
+[ 2018-08-09T15:55:52+08:00 ] 127.0.0.1 POST /api/agent/author_agent
+[ info ] lin.com/api/agent/author_agent [运行时间：0.261015s][吞吐率：3.83req/s] [内存消耗：2,456.52kb] [文件加载：60]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'author_agent',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '554',
+  'content-type' => 'multipart/form-data; boundary=--------------------------786507685678153319740188',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'abe4cc60-c3dc-4005-b2f6-64d6047d25af',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/author_agent' => '',
+  'token' => 'd921XG1eu1I2KVZYKbv5l%2BB9aHdKN4W2y0bE9b8mlxkQCgFLK3Db5zR2MX1cytYT1DeMZC2X0o2kk5uM7k8fwR%2BEOuu8xWChRWkVmAIFOT%2Ba0bylA5%2FL4DiTmIpqLRdUQfX8biP5ZdO2TgLAv0FpxVwTjrhN20rumA',
+  'phone' => '18814118906',
+  'level_id' => '15',
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+  'httponly' => true,
+  'secure' => false,
+)
+[ info ] [ RUN ] app\api\controller\Agent->author_agent[ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

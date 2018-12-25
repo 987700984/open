@@ -1,0 +1,31 @@
+---------------------------------------------------------------
+[ 2018-09-27T10:21:29+08:00 ] 127.0.0.1 GET /api/Feixiaohao/getlist
+[ info ] lin.com/api/Feixiaohao/getlist [运行时间：2.655151s][吞吐率：0.38req/s] [内存消耗：2,558.37kb] [文件加载：55]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Feixiaohao',
+    2 => 'getlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=bg0q49tidm0c6bvehjubhutou1',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '1834864d-4f9e-4e10-965e-ec5a8ed9d3cd',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/Feixiaohao/getlist' => '',
+)
+[ info ] [ RUN ] app\api\controller\Feixiaohao->getlist[ D:\PHPTutorial\WWW\open\application\api\controller\Feixiaohao.php ]
+[ info ] [ CACHE ] INIT file
+[ info ] [ LOG ] INIT File
+[ error ] [2]DOMDocument::loadHTML(): htmlParseEntityRef: expecting ';' in Entity, line: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]
+[ error ] [2]DOMDocument::loadHTML(): Unexpected end tag : a in Entity, line: 1[D:\PHPTutorial\WWW\open\vendor\jaeger\phpquery-single\phpQuery.php:328]

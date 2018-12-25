@@ -1,0 +1,2462 @@
+[ 2018-06-22T16:40:02+08:00 ] 127.0.0.1 127.0.0.1 POST /api/index/login?phone=15914369666&password=123456
+[ log ] lin.com/api/index/login?phone=15914369666&password=123456 [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：1,211.37kb] [文件加载：32]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=07b6prnsgdkemdf6ui7fmh9vdm',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '0eb0fad9-c8f9-4ee6-9fae-2e25ba54b94e',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/index/login' => '',
+  'phone' => '15914369666',
+  'password' => '123456',
+)
+[ info ] [ RUN ] Class [ <user> class app\api\controller\Index extends app\api\controller\Base ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 11-1236
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> protected $data ]
+    Property [ <default> protected $view ]
+    Property [ <default> protected $request ]
+    Property [ <default> protected $failException ]
+    Property [ <default> protected $batchValidate ]
+    Property [ <default> protected $beforeActionList ]
+  }
+
+  - Methods [53] {
+    Method [ <user> public method index ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 12 - 19
+    }
+
+    Method [ <user> public method send ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 23 - 90
+    }
+
+    Method [ <user> public method ajaxreg ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 92 - 164
+    }
+
+    Method [ <user> private method setCoin ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 166 - 213
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $uid ]
+        Parameter #1 [ <required> $lv ]
+        Parameter #2 [ <optional> $userid = 0 ]
+      }
+    }
+
+    Method [ <user> public method login ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 216 - 267
+    }
+
+    Method [ <user> public method out ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 269 - 274
+    }
+
+    Method [ <user> public method forget ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 277 - 305
+    }
+
+    Method [ <user> public method getQRcode ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 321 - 333
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $uid = NULL ]
+        Parameter #1 [ <optional> $size = 200 ]
+      }
+    }
+
+    Method [ <user> public method share ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 339 - 417
+    }
+
+    Method [ <user> public method about ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 420 - 431
+    }
+
+    Method [ <user> public method help ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 434 - 447
+    }
+
+    Method [ <user> public method upgrade ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 450 - 472
+    }
+
+    Method [ <user> public method agreement ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 475 - 500
+    }
+
+    Method [ <user> public method getCoinList ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 502 - 544
+    }
+
+    Method [ <user> public method push ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 546 - 566
+    }
+
+    Method [ <user> public method getNews ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 568 - 585
+    }
+
+    Method [ <user> public method getAD ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 587 - 599
+    }
+
+    Method [ <user> public method message ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 603 - 635
+    }
+
+    Method [ <user> public method verify ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 638 - 646
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $type = '' ]
+      }
+    }
+
+    Method [ <user> private method check_verify ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 649 - 652
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $code ]
+        Parameter #1 [ <optional> $id = '' ]
+      }
+    }
+
+    Method [ <user> public method timed_task ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 655 - 663
+    }
+
+    Method [ <user> public method tpuser ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 667 - 688
+    }
+
+    Method [ <user> public method tpintegral ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 692 - 709
+    }
+
+    Method [ <user> public method tparticle ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 711 - 741
+    }
+
+    /**
+     * 单边上扬K线图
+     * @return [type] [description]
+     */
+    Method [ <user> public method upMarket ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 747 - 766
+    }
+
+    /**
+     * 多图片上传
+     * @return [type] [description]
+     */
+    Method [ <user> public method uploadsPic ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 772 - 818
+    }
+
+    /**
+     * 单图片上传
+     * @return [type] [description]
+     */
+    Method [ <user> public method uploads ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 824 - 863
+    }
+
+    Method [ <user> public method validates ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 865 - 868
+    }
+
+    /**
+     * 获取手续费比例
+     */
+    Method [ <user> public method getFee ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 873 - 888
+    }
+
+    /**
+     * 定时更新订单
+     */
+    Method [ <user> public method upc2c ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 893 - 998
+    }
+
+    Method [ <user> public method getOrder ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1003 - 1024
+    }
+
+    Method [ <user> public method setOrder ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1029 - 1061
+    }
+
+    Method [ <user> public method geetest_api ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1063 - 1084
+    }
+
+    Method [ <user> public method user_rtid ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1087 - 1131
+    }
+
+    Method [ <user> public method getMsgInfo ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1133 - 1145
+    }
+
+    Method [ <user> public method miner ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1148 - 1189
+    }
+
+    Method [ <user> public method calculation_force ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1192 - 1220
+    }
+
+    Method [ <user> public method settlement ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1223 - 1234
+    }
+
+    Method [ <user, inherits app\api\controller\Base, prototype think\Controller> protected method _initialize ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 12 - 49
+    }
+
+    Method [ <user, inherits app\api\controller\Base> protected method geetest_api2 ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 51 - 72
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arr ]
+        Parameter #1 [ <required> $data ]
+      }
+    }
+
+    /**
+     * 架构函数
+     * @param Request $request Request对象
+     * @access public
+     */
+    Method [ <user, inherits think\Controller, ctor> public method __construct ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 44 - 63
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> think\Request or NULL $request = NULL ]
+      }
+    }
+
+    /**
+     * 前置操作
+     * @access protected
+     * @param string $method  前置操作方法名
+     * @param array  $options 调用参数 ['only'=>[...]] 或者['except'=>[...]]
+     */
+    Method [ <user, inherits think\Controller> protected method beforeAction ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 76 - 95
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $method ]
+        Parameter #1 [ <optional> $options = Array ]
+      }
+    }
+
+    /**
+     * 加载模板输出
+     * @access protected
+     * @param string $template 模板文件名
+     * @param array  $vars     模板输出变量
+     * @param array  $replace  模板替换
+     * @param array  $config   模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method fetch ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 106 - 109
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $template = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 渲染内容输出
+     * @access protected
+     * @param string $content 模板内容
+     * @param array  $vars    模板输出变量
+     * @param array  $replace 替换内容
+     * @param array  $config  模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method display ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 120 - 123
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $content = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 模板变量赋值
+     * @access protected
+     * @param mixed $name  要显示的模板变量
+     * @param mixed $value 变量的值
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method assign ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 132 - 135
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value = '' ]
+      }
+    }
+
+    /**
+     * 初始化模板引擎
+     * @access protected
+     * @param array|string $engine 引擎参数
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method engine ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 143 - 146
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $engine ]
+      }
+    }
+
+    /**
+     * 设置验证失败后是否抛出异常
+     * @access protected
+     * @param bool $fail 是否抛出异常
+     * @return $this
+     */
+    Method [ <user, inherits think\Controller> protected method validateFailException ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 154 - 158
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $fail = true ]
+      }
+    }
+
+    /**
+     * 验证数据
+     * @access protected
+     * @param array        $data     数据
+     * @param string|array $validate 验证器名或者验证规则数组
+     * @param array        $message  提示信息
+     * @param bool         $batch    是否批量验证
+     * @param mixed        $callback 回调方法（闭包）
+     * @return array|string|true
+     * @throws ValidateException
+     */
+    Method [ <user, inherits think\Controller> protected method validate ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 171 - 208
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $validate ]
+        Parameter #2 [ <optional> $message = Array ]
+        Parameter #3 [ <optional> $batch = false ]
+        Parameter #4 [ <optional> $callback = NULL ]
+      }
+    }
+
+    /**
+     * 操作成功跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method success ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 37 - 64
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 操作错误跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method error ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 76 - 103
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 返回封装后的API数据到客户端
+     * @access protected
+     * @param mixed     $data 要返回的数据
+     * @param integer   $code 返回的code
+     * @param mixed     $msg 提示信息
+     * @param string    $type 返回数据格式
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method result ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 115 - 126
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $code = 0 ]
+        Parameter #2 [ <optional> $msg = '' ]
+        Parameter #3 [ <optional> $type = '' ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * URL重定向
+     * @access protected
+     * @param string         $url 跳转的URL表达式
+     * @param array|integer  $params 其它URL参数
+     * @param integer        $code http code
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method redirect ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 136 - 145
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $url ]
+        Parameter #1 [ <optional> $params = Array ]
+        Parameter #2 [ <optional> $code = 302 ]
+      }
+    }
+
+    /**
+     * 获取当前的response 输出类型
+     * @access protected
+     * @return string
+     */
+    Method [ <user, inherits think\Controller> protected method getResponseType ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 152 - 156
+    }
+  }
+}
+
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 216 - 267
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-22T16:40:08+08:00 ] 127.0.0.1 127.0.0.1 POST /api/index/login?phone=15914369666&password=123456
+[ log ] lin.com/api/index/login?phone=15914369666&password=123456 [运行时间：0.026002s][吞吐率：38.46req/s] [内存消耗：1,211.38kb] [文件加载：32]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'content-length' => '0',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=07b6prnsgdkemdf6ui7fmh9vdm',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '39294950-0206-43d0-bb51-ef13008b23c2',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/index/login' => '',
+  'phone' => '15914369666',
+  'password' => '123456',
+)
+[ info ] [ RUN ] Class [ <user> class app\api\controller\Index extends app\api\controller\Base ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 11-1236
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> protected $data ]
+    Property [ <default> protected $view ]
+    Property [ <default> protected $request ]
+    Property [ <default> protected $failException ]
+    Property [ <default> protected $batchValidate ]
+    Property [ <default> protected $beforeActionList ]
+  }
+
+  - Methods [53] {
+    Method [ <user> public method index ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 12 - 19
+    }
+
+    Method [ <user> public method send ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 23 - 90
+    }
+
+    Method [ <user> public method ajaxreg ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 92 - 164
+    }
+
+    Method [ <user> private method setCoin ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 166 - 213
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $uid ]
+        Parameter #1 [ <required> $lv ]
+        Parameter #2 [ <optional> $userid = 0 ]
+      }
+    }
+
+    Method [ <user> public method login ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 216 - 267
+    }
+
+    Method [ <user> public method out ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 269 - 274
+    }
+
+    Method [ <user> public method forget ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 277 - 305
+    }
+
+    Method [ <user> public method getQRcode ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 321 - 333
+
+      - Parameters [2] {
+        Parameter #0 [ <optional> $uid = NULL ]
+        Parameter #1 [ <optional> $size = 200 ]
+      }
+    }
+
+    Method [ <user> public method share ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 339 - 417
+    }
+
+    Method [ <user> public method about ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 420 - 431
+    }
+
+    Method [ <user> public method help ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 434 - 447
+    }
+
+    Method [ <user> public method upgrade ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 450 - 472
+    }
+
+    Method [ <user> public method agreement ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 475 - 500
+    }
+
+    Method [ <user> public method getCoinList ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 502 - 544
+    }
+
+    Method [ <user> public method push ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 546 - 566
+    }
+
+    Method [ <user> public method getNews ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 568 - 585
+    }
+
+    Method [ <user> public method getAD ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 587 - 599
+    }
+
+    Method [ <user> public method message ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 603 - 635
+    }
+
+    Method [ <user> public method verify ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 638 - 646
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $type = '' ]
+      }
+    }
+
+    Method [ <user> private method check_verify ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 649 - 652
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $code ]
+        Parameter #1 [ <optional> $id = '' ]
+      }
+    }
+
+    Method [ <user> public method timed_task ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 655 - 663
+    }
+
+    Method [ <user> public method tpuser ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 667 - 688
+    }
+
+    Method [ <user> public method tpintegral ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 692 - 709
+    }
+
+    Method [ <user> public method tparticle ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 711 - 741
+    }
+
+    /**
+     * 单边上扬K线图
+     * @return [type] [description]
+     */
+    Method [ <user> public method upMarket ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 747 - 766
+    }
+
+    /**
+     * 多图片上传
+     * @return [type] [description]
+     */
+    Method [ <user> public method uploadsPic ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 772 - 818
+    }
+
+    /**
+     * 单图片上传
+     * @return [type] [description]
+     */
+    Method [ <user> public method uploads ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 824 - 863
+    }
+
+    Method [ <user> public method validates ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 865 - 868
+    }
+
+    /**
+     * 获取手续费比例
+     */
+    Method [ <user> public method getFee ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 873 - 888
+    }
+
+    /**
+     * 定时更新订单
+     */
+    Method [ <user> public method upc2c ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 893 - 998
+    }
+
+    Method [ <user> public method getOrder ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1003 - 1024
+    }
+
+    Method [ <user> public method setOrder ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1029 - 1061
+    }
+
+    Method [ <user> public method geetest_api ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1063 - 1084
+    }
+
+    Method [ <user> public method user_rtid ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1087 - 1131
+    }
+
+    Method [ <user> public method getMsgInfo ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1133 - 1145
+    }
+
+    Method [ <user> public method miner ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1148 - 1189
+    }
+
+    Method [ <user> public method calculation_force ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1192 - 1220
+    }
+
+    Method [ <user> public method settlement ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 1223 - 1234
+    }
+
+    Method [ <user, inherits app\api\controller\Base, prototype think\Controller> protected method _initialize ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 12 - 49
+    }
+
+    Method [ <user, inherits app\api\controller\Base> protected method geetest_api2 ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 51 - 72
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arr ]
+        Parameter #1 [ <required> $data ]
+      }
+    }
+
+    /**
+     * 架构函数
+     * @param Request $request Request对象
+     * @access public
+     */
+    Method [ <user, inherits think\Controller, ctor> public method __construct ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 44 - 63
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> think\Request or NULL $request = NULL ]
+      }
+    }
+
+    /**
+     * 前置操作
+     * @access protected
+     * @param string $method  前置操作方法名
+     * @param array  $options 调用参数 ['only'=>[...]] 或者['except'=>[...]]
+     */
+    Method [ <user, inherits think\Controller> protected method beforeAction ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 76 - 95
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $method ]
+        Parameter #1 [ <optional> $options = Array ]
+      }
+    }
+
+    /**
+     * 加载模板输出
+     * @access protected
+     * @param string $template 模板文件名
+     * @param array  $vars     模板输出变量
+     * @param array  $replace  模板替换
+     * @param array  $config   模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method fetch ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 106 - 109
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $template = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 渲染内容输出
+     * @access protected
+     * @param string $content 模板内容
+     * @param array  $vars    模板输出变量
+     * @param array  $replace 替换内容
+     * @param array  $config  模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method display ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 120 - 123
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $content = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 模板变量赋值
+     * @access protected
+     * @param mixed $name  要显示的模板变量
+     * @param mixed $value 变量的值
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method assign ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 132 - 135
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value = '' ]
+      }
+    }
+
+    /**
+     * 初始化模板引擎
+     * @access protected
+     * @param array|string $engine 引擎参数
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method engine ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 143 - 146
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $engine ]
+      }
+    }
+
+    /**
+     * 设置验证失败后是否抛出异常
+     * @access protected
+     * @param bool $fail 是否抛出异常
+     * @return $this
+     */
+    Method [ <user, inherits think\Controller> protected method validateFailException ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 154 - 158
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $fail = true ]
+      }
+    }
+
+    /**
+     * 验证数据
+     * @access protected
+     * @param array        $data     数据
+     * @param string|array $validate 验证器名或者验证规则数组
+     * @param array        $message  提示信息
+     * @param bool         $batch    是否批量验证
+     * @param mixed        $callback 回调方法（闭包）
+     * @return array|string|true
+     * @throws ValidateException
+     */
+    Method [ <user, inherits think\Controller> protected method validate ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 171 - 208
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $validate ]
+        Parameter #2 [ <optional> $message = Array ]
+        Parameter #3 [ <optional> $batch = false ]
+        Parameter #4 [ <optional> $callback = NULL ]
+      }
+    }
+
+    /**
+     * 操作成功跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method success ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 37 - 64
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 操作错误跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method error ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 76 - 103
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 返回封装后的API数据到客户端
+     * @access protected
+     * @param mixed     $data 要返回的数据
+     * @param integer   $code 返回的code
+     * @param mixed     $msg 提示信息
+     * @param string    $type 返回数据格式
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method result ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 115 - 126
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $code = 0 ]
+        Parameter #2 [ <optional> $msg = '' ]
+        Parameter #3 [ <optional> $type = '' ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * URL重定向
+     * @access protected
+     * @param string         $url 跳转的URL表达式
+     * @param array|integer  $params 其它URL参数
+     * @param integer        $code http code
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method redirect ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 136 - 145
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $url ]
+        Parameter #1 [ <optional> $params = Array ]
+        Parameter #2 [ <optional> $code = 302 ]
+      }
+    }
+
+    /**
+     * 获取当前的response 输出类型
+     * @access protected
+     * @return string
+     */
+    Method [ <user, inherits think\Controller> protected method getResponseType ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 152 - 156
+    }
+  }
+}
+
+[ info ] [ RUN ] Method [ <user> public method login ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Index.php 216 - 267
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-22T16:42:03+08:00 ] 127.0.0.1 127.0.0.1 GET /api/agent/get_comission_config?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO
+[ log ] lin.com/api/agent/get_comission_config?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO [运行时间：0.126008s][吞吐率：7.94req/s] [内存消耗：1,850.17kb] [文件加载：43]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'get_comission_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=07b6prnsgdkemdf6ui7fmh9vdm',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => 'c8c7d8de-e418-432e-a6e0-9900ac68fc30',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/get_comission_config' => '',
+  'token' => 'f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30 a7yw67KqPlfR/xsDMXVlb4 PLmB8u RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO',
+)
+[ info ] [ RUN ] Class [ <user> class app\api\controller\Agent extends app\api\controller\Common ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 19-523
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> protected $data ]
+    Property [ <default> protected $view ]
+    Property [ <default> protected $request ]
+    Property [ <default> protected $failException ]
+    Property [ <default> protected $batchValidate ]
+    Property [ <default> protected $beforeActionList ]
+  }
+
+  - Methods [31] {
+    Method [ <user> public method myAgent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 21 - 40
+    }
+
+    Method [ <user> public method get_coin_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 44 - 65
+    }
+
+    Method [ <user> public method get_log ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 68 - 84
+    }
+
+    Method [ <user> public method agent_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 89 - 146
+    }
+
+    Method [ <user> public method handle_agent_level_info ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 152 - 175
+    }
+
+    Method [ <user> public method handle_agent_level ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 180 - 200
+    }
+
+    Method [ <user> public method author_agent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 205 - 244
+    }
+
+    Method [ <user> public method agent_charge ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 250 - 264
+    }
+
+    Method [ <user> public method total_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 269 - 305
+    }
+
+    Method [ <user> public method commission_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 311 - 339
+    }
+
+    Method [ <user> public method comission_detail ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 345 - 386
+    }
+
+    Method [ <user> public method myinfo ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 392 - 399
+    }
+
+    Method [ <user> public method get_amount ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 402 - 412
+    }
+
+    Method [ <user> public method get_comission_config ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 415 - 418
+    }
+
+    Method [ <user> public method tixian ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 421 - 494
+    }
+
+    Method [ <user> public method fir_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 499 - 519
+    }
+
+    Method [ <user, inherits app\api\controller\Common, prototype think\Controller> protected method _initialize ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Common.php 9 - 56
+    }
+
+    Method [ <user, inherits app\api\controller\Base> protected method geetest_api2 ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 51 - 72
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arr ]
+        Parameter #1 [ <required> $data ]
+      }
+    }
+
+    /**
+     * 架构函数
+     * @param Request $request Request对象
+     * @access public
+     */
+    Method [ <user, inherits think\Controller, ctor> public method __construct ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 44 - 63
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> think\Request or NULL $request = NULL ]
+      }
+    }
+
+    /**
+     * 前置操作
+     * @access protected
+     * @param string $method  前置操作方法名
+     * @param array  $options 调用参数 ['only'=>[...]] 或者['except'=>[...]]
+     */
+    Method [ <user, inherits think\Controller> protected method beforeAction ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 76 - 95
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $method ]
+        Parameter #1 [ <optional> $options = Array ]
+      }
+    }
+
+    /**
+     * 加载模板输出
+     * @access protected
+     * @param string $template 模板文件名
+     * @param array  $vars     模板输出变量
+     * @param array  $replace  模板替换
+     * @param array  $config   模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method fetch ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 106 - 109
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $template = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 渲染内容输出
+     * @access protected
+     * @param string $content 模板内容
+     * @param array  $vars    模板输出变量
+     * @param array  $replace 替换内容
+     * @param array  $config  模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method display ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 120 - 123
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $content = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 模板变量赋值
+     * @access protected
+     * @param mixed $name  要显示的模板变量
+     * @param mixed $value 变量的值
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method assign ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 132 - 135
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value = '' ]
+      }
+    }
+
+    /**
+     * 初始化模板引擎
+     * @access protected
+     * @param array|string $engine 引擎参数
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method engine ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 143 - 146
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $engine ]
+      }
+    }
+
+    /**
+     * 设置验证失败后是否抛出异常
+     * @access protected
+     * @param bool $fail 是否抛出异常
+     * @return $this
+     */
+    Method [ <user, inherits think\Controller> protected method validateFailException ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 154 - 158
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $fail = true ]
+      }
+    }
+
+    /**
+     * 验证数据
+     * @access protected
+     * @param array        $data     数据
+     * @param string|array $validate 验证器名或者验证规则数组
+     * @param array        $message  提示信息
+     * @param bool         $batch    是否批量验证
+     * @param mixed        $callback 回调方法（闭包）
+     * @return array|string|true
+     * @throws ValidateException
+     */
+    Method [ <user, inherits think\Controller> protected method validate ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 171 - 208
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $validate ]
+        Parameter #2 [ <optional> $message = Array ]
+        Parameter #3 [ <optional> $batch = false ]
+        Parameter #4 [ <optional> $callback = NULL ]
+      }
+    }
+
+    /**
+     * 操作成功跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method success ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 37 - 64
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 操作错误跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method error ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 76 - 103
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 返回封装后的API数据到客户端
+     * @access protected
+     * @param mixed     $data 要返回的数据
+     * @param integer   $code 返回的code
+     * @param mixed     $msg 提示信息
+     * @param string    $type 返回数据格式
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method result ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 115 - 126
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $code = 0 ]
+        Parameter #2 [ <optional> $msg = '' ]
+        Parameter #3 [ <optional> $type = '' ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * URL重定向
+     * @access protected
+     * @param string         $url 跳转的URL表达式
+     * @param array|integer  $params 其它URL参数
+     * @param integer        $code http code
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method redirect ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 136 - 145
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $url ]
+        Parameter #1 [ <optional> $params = Array ]
+        Parameter #2 [ <optional> $code = 302 ]
+      }
+    }
+
+    /**
+     * 获取当前的response 输出类型
+     * @access protected
+     * @return string
+     */
+    Method [ <user, inherits think\Controller> protected method getResponseType ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 152 - 156
+    }
+  }
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method get_comission_config ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 415 - 418
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类的属性不存在:app\api\model\AgentLevel->comission1[D:\PHPTutorial\WWW\open\thinkphp\library\think\Model.php:422]
+
+---------------------------------------------------------------
+[ 2018-06-22T16:43:19+08:00 ] 127.0.0.1 127.0.0.1 GET /api/agent/get_comission_config?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO
+[ log ] lin.com/api/agent/get_comission_config?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO [运行时间：0.077004s][吞吐率：12.99req/s] [内存消耗：1,823.99kb] [文件加载：42]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'get_comission_config',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=07b6prnsgdkemdf6ui7fmh9vdm',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '79542cb4-433a-41f8-9d64-51e2e0aa9aef',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/get_comission_config' => '',
+  'token' => 'f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30 a7yw67KqPlfR/xsDMXVlb4 PLmB8u RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO',
+)
+[ info ] [ RUN ] Class [ <user> class app\api\controller\Agent extends app\api\controller\Common ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 19-523
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> protected $data ]
+    Property [ <default> protected $view ]
+    Property [ <default> protected $request ]
+    Property [ <default> protected $failException ]
+    Property [ <default> protected $batchValidate ]
+    Property [ <default> protected $beforeActionList ]
+  }
+
+  - Methods [31] {
+    Method [ <user> public method myAgent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 21 - 40
+    }
+
+    Method [ <user> public method get_coin_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 44 - 65
+    }
+
+    Method [ <user> public method get_log ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 68 - 84
+    }
+
+    Method [ <user> public method agent_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 89 - 146
+    }
+
+    Method [ <user> public method handle_agent_level_info ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 152 - 175
+    }
+
+    Method [ <user> public method handle_agent_level ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 180 - 200
+    }
+
+    Method [ <user> public method author_agent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 205 - 244
+    }
+
+    Method [ <user> public method agent_charge ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 250 - 264
+    }
+
+    Method [ <user> public method total_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 269 - 305
+    }
+
+    Method [ <user> public method commission_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 311 - 339
+    }
+
+    Method [ <user> public method comission_detail ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 345 - 386
+    }
+
+    Method [ <user> public method myinfo ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 392 - 399
+    }
+
+    Method [ <user> public method get_amount ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 402 - 412
+    }
+
+    Method [ <user> public method get_comission_config ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 415 - 418
+    }
+
+    Method [ <user> public method tixian ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 421 - 494
+    }
+
+    Method [ <user> public method fir_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 499 - 519
+    }
+
+    Method [ <user, inherits app\api\controller\Common, prototype think\Controller> protected method _initialize ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Common.php 9 - 56
+    }
+
+    Method [ <user, inherits app\api\controller\Base> protected method geetest_api2 ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 51 - 72
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arr ]
+        Parameter #1 [ <required> $data ]
+      }
+    }
+
+    /**
+     * 架构函数
+     * @param Request $request Request对象
+     * @access public
+     */
+    Method [ <user, inherits think\Controller, ctor> public method __construct ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 44 - 63
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> think\Request or NULL $request = NULL ]
+      }
+    }
+
+    /**
+     * 前置操作
+     * @access protected
+     * @param string $method  前置操作方法名
+     * @param array  $options 调用参数 ['only'=>[...]] 或者['except'=>[...]]
+     */
+    Method [ <user, inherits think\Controller> protected method beforeAction ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 76 - 95
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $method ]
+        Parameter #1 [ <optional> $options = Array ]
+      }
+    }
+
+    /**
+     * 加载模板输出
+     * @access protected
+     * @param string $template 模板文件名
+     * @param array  $vars     模板输出变量
+     * @param array  $replace  模板替换
+     * @param array  $config   模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method fetch ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 106 - 109
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $template = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 渲染内容输出
+     * @access protected
+     * @param string $content 模板内容
+     * @param array  $vars    模板输出变量
+     * @param array  $replace 替换内容
+     * @param array  $config  模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method display ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 120 - 123
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $content = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 模板变量赋值
+     * @access protected
+     * @param mixed $name  要显示的模板变量
+     * @param mixed $value 变量的值
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method assign ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 132 - 135
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value = '' ]
+      }
+    }
+
+    /**
+     * 初始化模板引擎
+     * @access protected
+     * @param array|string $engine 引擎参数
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method engine ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 143 - 146
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $engine ]
+      }
+    }
+
+    /**
+     * 设置验证失败后是否抛出异常
+     * @access protected
+     * @param bool $fail 是否抛出异常
+     * @return $this
+     */
+    Method [ <user, inherits think\Controller> protected method validateFailException ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 154 - 158
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $fail = true ]
+      }
+    }
+
+    /**
+     * 验证数据
+     * @access protected
+     * @param array        $data     数据
+     * @param string|array $validate 验证器名或者验证规则数组
+     * @param array        $message  提示信息
+     * @param bool         $batch    是否批量验证
+     * @param mixed        $callback 回调方法（闭包）
+     * @return array|string|true
+     * @throws ValidateException
+     */
+    Method [ <user, inherits think\Controller> protected method validate ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 171 - 208
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $validate ]
+        Parameter #2 [ <optional> $message = Array ]
+        Parameter #3 [ <optional> $batch = false ]
+        Parameter #4 [ <optional> $callback = NULL ]
+      }
+    }
+
+    /**
+     * 操作成功跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method success ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 37 - 64
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 操作错误跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method error ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 76 - 103
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 返回封装后的API数据到客户端
+     * @access protected
+     * @param mixed     $data 要返回的数据
+     * @param integer   $code 返回的code
+     * @param mixed     $msg 提示信息
+     * @param string    $type 返回数据格式
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method result ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 115 - 126
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $code = 0 ]
+        Parameter #2 [ <optional> $msg = '' ]
+        Parameter #3 [ <optional> $type = '' ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * URL重定向
+     * @access protected
+     * @param string         $url 跳转的URL表达式
+     * @param array|integer  $params 其它URL参数
+     * @param integer        $code http code
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method redirect ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 136 - 145
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $url ]
+        Parameter #1 [ <optional> $params = Array ]
+        Parameter #2 [ <optional> $code = 302 ]
+      }
+    }
+
+    /**
+     * 获取当前的response 输出类型
+     * @access protected
+     * @return string
+     */
+    Method [ <user, inherits think\Controller> protected method getResponseType ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 152 - 156
+    }
+  }
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method get_comission_config ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 415 - 418
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-06-22T16:45:49+08:00 ] 127.0.0.1 127.0.0.1 GET /api/agent/get_amount?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO
+[ log ] lin.com/api/agent/get_amount?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO [运行时间：0.153009s][吞吐率：6.54req/s] [内存消耗：1,880.27kb] [文件加载：44]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'get_amount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=07b6prnsgdkemdf6ui7fmh9vdm',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '3ff1a40d-2433-4da2-a39d-ad0af0c8e631',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/get_amount' => '',
+  'token' => 'f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30 a7yw67KqPlfR/xsDMXVlb4 PLmB8u RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO',
+)
+[ info ] [ RUN ] Class [ <user> class app\api\controller\Agent extends app\api\controller\Common ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 19-523
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> protected $data ]
+    Property [ <default> protected $view ]
+    Property [ <default> protected $request ]
+    Property [ <default> protected $failException ]
+    Property [ <default> protected $batchValidate ]
+    Property [ <default> protected $beforeActionList ]
+  }
+
+  - Methods [31] {
+    Method [ <user> public method myAgent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 21 - 40
+    }
+
+    Method [ <user> public method get_coin_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 44 - 65
+    }
+
+    Method [ <user> public method get_log ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 68 - 84
+    }
+
+    Method [ <user> public method agent_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 89 - 146
+    }
+
+    Method [ <user> public method handle_agent_level_info ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 152 - 175
+    }
+
+    Method [ <user> public method handle_agent_level ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 180 - 200
+    }
+
+    Method [ <user> public method author_agent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 205 - 244
+    }
+
+    Method [ <user> public method agent_charge ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 250 - 264
+    }
+
+    Method [ <user> public method total_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 269 - 305
+    }
+
+    Method [ <user> public method commission_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 311 - 339
+    }
+
+    Method [ <user> public method comission_detail ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 345 - 386
+    }
+
+    Method [ <user> public method myinfo ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 392 - 399
+    }
+
+    Method [ <user> public method get_amount ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 402 - 412
+    }
+
+    Method [ <user> public method get_comission_config ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 415 - 418
+    }
+
+    Method [ <user> public method tixian ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 421 - 494
+    }
+
+    Method [ <user> public method fir_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 499 - 519
+    }
+
+    Method [ <user, inherits app\api\controller\Common, prototype think\Controller> protected method _initialize ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Common.php 9 - 56
+    }
+
+    Method [ <user, inherits app\api\controller\Base> protected method geetest_api2 ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 51 - 72
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arr ]
+        Parameter #1 [ <required> $data ]
+      }
+    }
+
+    /**
+     * 架构函数
+     * @param Request $request Request对象
+     * @access public
+     */
+    Method [ <user, inherits think\Controller, ctor> public method __construct ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 44 - 63
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> think\Request or NULL $request = NULL ]
+      }
+    }
+
+    /**
+     * 前置操作
+     * @access protected
+     * @param string $method  前置操作方法名
+     * @param array  $options 调用参数 ['only'=>[...]] 或者['except'=>[...]]
+     */
+    Method [ <user, inherits think\Controller> protected method beforeAction ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 76 - 95
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $method ]
+        Parameter #1 [ <optional> $options = Array ]
+      }
+    }
+
+    /**
+     * 加载模板输出
+     * @access protected
+     * @param string $template 模板文件名
+     * @param array  $vars     模板输出变量
+     * @param array  $replace  模板替换
+     * @param array  $config   模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method fetch ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 106 - 109
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $template = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 渲染内容输出
+     * @access protected
+     * @param string $content 模板内容
+     * @param array  $vars    模板输出变量
+     * @param array  $replace 替换内容
+     * @param array  $config  模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method display ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 120 - 123
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $content = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 模板变量赋值
+     * @access protected
+     * @param mixed $name  要显示的模板变量
+     * @param mixed $value 变量的值
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method assign ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 132 - 135
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value = '' ]
+      }
+    }
+
+    /**
+     * 初始化模板引擎
+     * @access protected
+     * @param array|string $engine 引擎参数
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method engine ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 143 - 146
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $engine ]
+      }
+    }
+
+    /**
+     * 设置验证失败后是否抛出异常
+     * @access protected
+     * @param bool $fail 是否抛出异常
+     * @return $this
+     */
+    Method [ <user, inherits think\Controller> protected method validateFailException ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 154 - 158
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $fail = true ]
+      }
+    }
+
+    /**
+     * 验证数据
+     * @access protected
+     * @param array        $data     数据
+     * @param string|array $validate 验证器名或者验证规则数组
+     * @param array        $message  提示信息
+     * @param bool         $batch    是否批量验证
+     * @param mixed        $callback 回调方法（闭包）
+     * @return array|string|true
+     * @throws ValidateException
+     */
+    Method [ <user, inherits think\Controller> protected method validate ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 171 - 208
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $validate ]
+        Parameter #2 [ <optional> $message = Array ]
+        Parameter #3 [ <optional> $batch = false ]
+        Parameter #4 [ <optional> $callback = NULL ]
+      }
+    }
+
+    /**
+     * 操作成功跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method success ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 37 - 64
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 操作错误跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method error ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 76 - 103
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 返回封装后的API数据到客户端
+     * @access protected
+     * @param mixed     $data 要返回的数据
+     * @param integer   $code 返回的code
+     * @param mixed     $msg 提示信息
+     * @param string    $type 返回数据格式
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method result ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 115 - 126
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $code = 0 ]
+        Parameter #2 [ <optional> $msg = '' ]
+        Parameter #3 [ <optional> $type = '' ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * URL重定向
+     * @access protected
+     * @param string         $url 跳转的URL表达式
+     * @param array|integer  $params 其它URL参数
+     * @param integer        $code http code
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method redirect ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 136 - 145
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $url ]
+        Parameter #1 [ <optional> $params = Array ]
+        Parameter #2 [ <optional> $code = 302 ]
+      }
+    }
+
+    /**
+     * 获取当前的response 输出类型
+     * @access protected
+     * @return string
+     */
+    Method [ <user, inherits think\Controller> protected method getResponseType ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 152 - 156
+    }
+  }
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method get_amount ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 402 - 412
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类的属性不存在:app\api\model\UserAgent->comission1[D:\PHPTutorial\WWW\open\thinkphp\library\think\Model.php:422]
+
+---------------------------------------------------------------
+[ 2018-06-22T16:46:09+08:00 ] 127.0.0.1 127.0.0.1 GET /api/agent/get_amount?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO
+[ log ] lin.com/api/agent/get_amount?token=f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30+a7yw67KqPlfR/xsDMXVlb4+PLmB8u+RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：1,854.06kb] [文件加载：43]
+[ info ] [ LANG ] D:\PHPTutorial\WWW\open\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'agent',
+    2 => 'get_amount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=07b6prnsgdkemdf6ui7fmh9vdm',
+  'host' => 'lin.com',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/3.0.9',
+  'postman-token' => '4881fb29-fcbe-4ba9-9daa-a436ceb55498',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  '/api/agent/get_amount' => '',
+  'token' => 'f5932vOlBtnezo2gn5QbxymepFVDPu5ArHiX0pP153gJmBEkS0pBiKMu8h9JU0UnWqmIc9nJD30 a7yw67KqPlfR/xsDMXVlb4 PLmB8u RQ19fu0yMMmyaxEm97hkrNmvBTuHK5qLPxW3azTe6XzHvsMJtO',
+)
+[ info ] [ RUN ] Class [ <user> class app\api\controller\Agent extends app\api\controller\Common ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 19-523
+
+  - Constants [0] {
+  }
+
+  - Static properties [0] {
+  }
+
+  - Static methods [0] {
+  }
+
+  - Properties [6] {
+    Property [ <default> protected $data ]
+    Property [ <default> protected $view ]
+    Property [ <default> protected $request ]
+    Property [ <default> protected $failException ]
+    Property [ <default> protected $batchValidate ]
+    Property [ <default> protected $beforeActionList ]
+  }
+
+  - Methods [31] {
+    Method [ <user> public method myAgent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 21 - 40
+    }
+
+    Method [ <user> public method get_coin_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 44 - 65
+    }
+
+    Method [ <user> public method get_log ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 68 - 84
+    }
+
+    Method [ <user> public method agent_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 89 - 146
+    }
+
+    Method [ <user> public method handle_agent_level_info ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 152 - 175
+    }
+
+    Method [ <user> public method handle_agent_level ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 180 - 200
+    }
+
+    Method [ <user> public method author_agent ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 205 - 244
+    }
+
+    Method [ <user> public method agent_charge ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 250 - 264
+    }
+
+    Method [ <user> public method total_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 269 - 305
+    }
+
+    Method [ <user> public method commission_list ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 311 - 339
+    }
+
+    Method [ <user> public method comission_detail ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 345 - 386
+    }
+
+    Method [ <user> public method myinfo ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 392 - 399
+    }
+
+    Method [ <user> public method get_amount ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 402 - 412
+    }
+
+    Method [ <user> public method get_comission_config ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 415 - 418
+    }
+
+    Method [ <user> public method tixian ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 421 - 494
+    }
+
+    Method [ <user> public method fir_commission ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 499 - 519
+    }
+
+    Method [ <user, inherits app\api\controller\Common, prototype think\Controller> protected method _initialize ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Common.php 9 - 56
+    }
+
+    Method [ <user, inherits app\api\controller\Base> protected method geetest_api2 ] {
+      @@ D:\PHPTutorial\WWW\open\application\api\controller\Base.php 51 - 72
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $arr ]
+        Parameter #1 [ <required> $data ]
+      }
+    }
+
+    /**
+     * 架构函数
+     * @param Request $request Request对象
+     * @access public
+     */
+    Method [ <user, inherits think\Controller, ctor> public method __construct ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 44 - 63
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> think\Request or NULL $request = NULL ]
+      }
+    }
+
+    /**
+     * 前置操作
+     * @access protected
+     * @param string $method  前置操作方法名
+     * @param array  $options 调用参数 ['only'=>[...]] 或者['except'=>[...]]
+     */
+    Method [ <user, inherits think\Controller> protected method beforeAction ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 76 - 95
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $method ]
+        Parameter #1 [ <optional> $options = Array ]
+      }
+    }
+
+    /**
+     * 加载模板输出
+     * @access protected
+     * @param string $template 模板文件名
+     * @param array  $vars     模板输出变量
+     * @param array  $replace  模板替换
+     * @param array  $config   模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method fetch ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 106 - 109
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $template = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 渲染内容输出
+     * @access protected
+     * @param string $content 模板内容
+     * @param array  $vars    模板输出变量
+     * @param array  $replace 替换内容
+     * @param array  $config  模板参数
+     * @return mixed
+     */
+    Method [ <user, inherits think\Controller> protected method display ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 120 - 123
+
+      - Parameters [4] {
+        Parameter #0 [ <optional> $content = '' ]
+        Parameter #1 [ <optional> $vars = Array ]
+        Parameter #2 [ <optional> $replace = Array ]
+        Parameter #3 [ <optional> $config = Array ]
+      }
+    }
+
+    /**
+     * 模板变量赋值
+     * @access protected
+     * @param mixed $name  要显示的模板变量
+     * @param mixed $value 变量的值
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method assign ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 132 - 135
+
+      - Parameters [2] {
+        Parameter #0 [ <required> $name ]
+        Parameter #1 [ <optional> $value = '' ]
+      }
+    }
+
+    /**
+     * 初始化模板引擎
+     * @access protected
+     * @param array|string $engine 引擎参数
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method engine ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 143 - 146
+
+      - Parameters [1] {
+        Parameter #0 [ <required> $engine ]
+      }
+    }
+
+    /**
+     * 设置验证失败后是否抛出异常
+     * @access protected
+     * @param bool $fail 是否抛出异常
+     * @return $this
+     */
+    Method [ <user, inherits think\Controller> protected method validateFailException ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 154 - 158
+
+      - Parameters [1] {
+        Parameter #0 [ <optional> $fail = true ]
+      }
+    }
+
+    /**
+     * 验证数据
+     * @access protected
+     * @param array        $data     数据
+     * @param string|array $validate 验证器名或者验证规则数组
+     * @param array        $message  提示信息
+     * @param bool         $batch    是否批量验证
+     * @param mixed        $callback 回调方法（闭包）
+     * @return array|string|true
+     * @throws ValidateException
+     */
+    Method [ <user, inherits think\Controller> protected method validate ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\think\Controller.php 171 - 208
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <required> $validate ]
+        Parameter #2 [ <optional> $message = Array ]
+        Parameter #3 [ <optional> $batch = false ]
+        Parameter #4 [ <optional> $callback = NULL ]
+      }
+    }
+
+    /**
+     * 操作成功跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method success ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 37 - 64
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 操作错误跳转的快捷方法
+     * @access protected
+     * @param mixed     $msg 提示信息
+     * @param string    $url 跳转的URL地址
+     * @param mixed     $data 返回的数据
+     * @param integer   $wait 跳转等待时间
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method error ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 76 - 103
+
+      - Parameters [5] {
+        Parameter #0 [ <optional> $msg = '' ]
+        Parameter #1 [ <optional> $url = NULL ]
+        Parameter #2 [ <optional> $data = '' ]
+        Parameter #3 [ <optional> $wait = 3 ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * 返回封装后的API数据到客户端
+     * @access protected
+     * @param mixed     $data 要返回的数据
+     * @param integer   $code 返回的code
+     * @param mixed     $msg 提示信息
+     * @param string    $type 返回数据格式
+     * @param array     $header 发送的Header信息
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method result ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 115 - 126
+
+      - Parameters [5] {
+        Parameter #0 [ <required> $data ]
+        Parameter #1 [ <optional> $code = 0 ]
+        Parameter #2 [ <optional> $msg = '' ]
+        Parameter #3 [ <optional> $type = '' ]
+        Parameter #4 [ <optional> array $header = Array ]
+      }
+    }
+
+    /**
+     * URL重定向
+     * @access protected
+     * @param string         $url 跳转的URL表达式
+     * @param array|integer  $params 其它URL参数
+     * @param integer        $code http code
+     * @return void
+     */
+    Method [ <user, inherits think\Controller> protected method redirect ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 136 - 145
+
+      - Parameters [3] {
+        Parameter #0 [ <required> $url ]
+        Parameter #1 [ <optional> $params = Array ]
+        Parameter #2 [ <optional> $code = 302 ]
+      }
+    }
+
+    /**
+     * 获取当前的response 输出类型
+     * @access protected
+     * @return string
+     */
+    Method [ <user, inherits think\Controller> protected method getResponseType ] {
+      @@ D:\PHPTutorial\WWW\open\thinkphp\library\traits\controller\Jump.php 152 - 156
+    }
+  }
+}
+
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] Method [ <user> public method get_amount ] {
+  @@ D:\PHPTutorial\WWW\open\application\api\controller\Agent.php 402 - 412
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

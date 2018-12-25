@@ -1,0 +1,39 @@
+-------------------------
+郑胜 在2018-07-27 14:24:06向open项目的refs/heads/master分支push了3个commit：
+From http://119.23.43.34:12345/username/open
+   15f67e4..fcb3230  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+	public/git-webhook.txt
+	public/static/editor/attached/image/20180528/20180528073203_50130.jpg
+	public/static/editor/attached/image/20180528/20180528073345_60141.jpg
+	public/static/editor/attached/image/20180531/20180531025624_19316.jpg
+	public/static/editor/attached/image/20180531/20180531025902_47089.jpg
+	public/static/editor/attached/image/20180531/20180531030156_93930.jpg
+	public/static/editor/attached/image/20180531/20180531030442_81716.jpg
+	public/static/editor/attached/image/20180531/20180531030506_87214.jpg
+	public/static/editor/attached/image/20180531/20180531030542_99112.jpg
+	public/static/editor/attached/image/20180531/20180531030618_73822.jpg
+	public/static/editor/attached/image/20180531/20180531030726_56730.jpg
+	public/static/editor/attached/image/20180531/20180531030813_77112.jpg
+	public/static/editor/attached/image/20180531/20180531030834_92966.jpg
+	public/static/editor/attached/image/20180531/20180531030858_86462.jpg
+	public/static/editor/attached/image/20180531/20180531030952_21615.jpg
+	public/uploads/share/code.jpg
+	public/uploads/share/tmp.jpg
+	public/uploads/share/tmp/qr2475.jpg
+	public/uploads/share/tmp/qr2520.jpg
+	public/uploads/share/tmp/qr2865.jpg
+	public/uploads/share/tmp/qr3003.jpg
+	public/uploads/share/tmp/qr4340.jpg
+	public/uploads/share/tmp/qr5573.jpg
+	public/uploads/share/tmp/qr688.jpg
+	public/uploads/share/tmp/qr800250.jpg
+	public/uploads/share/tmp/qr800407.jpg
+	public/uploads/share/tmp/qr800699.jpg
+	public/uploads/share/tmp/qr801727.jpg
+	public/uploads/share/tmp/qr801986.jpg
+	public/uploads/share/tmp/qr813406.jpg
+Please, commit your changes or stash them before you can merge.
+Aborting
+Updating 15f67e4..fcb3230
+

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeToken</title>
+    <style type="text/css">
+        div.main {
+            padding: 0.25rem 0.75rem;
+        }
+
+        div.main p.title {
+            text-align: center;
+            color: #000;
+            font-weight: bold;
+        }
+
+        div.main div.content p {
+            color: #999;
+            font-size: 0.9rem;
+            position: relative;
+        }
+
+        div.main div.content p:after {
+            content: '';
+            width: 75%;
+            position: absolute;
+            bottom: -15px;
+            right: 0;
+            border-bottom: 1px solid #EFEFEF;
+        }
+
+        ul {
+            margin: 0;
+        }
+
+        ul li {
+            list-style: none;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        ul li.title {
+            list-style: none;
+            color: #555;
+            font-size: 1rem;
+            padding: 0.75rem 0;
+            margin-left: -1rem;
+        }
+
+        .download-flex {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 3rem;
+            color: white;
+            font-size: 0.7rem;
+            padding: 0.5rem 0;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0, 0, 0, .75);
+            z-index: 5;
+        }
+
+        .download-flex .app-logo {
+            width: 6rem;
+            height: 100%;
+            background: url('/images/wetoken.png') no-repeat;
+            background-size: contain;
+            background-position: center;
+        }
+
+        .download-flex .app-content {
+            flex-basis: 100%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .download-flex .app-content .app-extra {
+            text-align: left;
+        }
+
+        .download-flex .app-content .app-extra p {
+            margin: 0;
+        }
+
+        .download-flex .app-content .app-open {
+            width: 5rem;
+            height: 1.5rem;
+            line-height: 1.5rem;
+            border-radius: .15rem;
+            background: #5f7cfd;
+            text-align: center;
+        }
+
+        .download-flex .btn-close {
+            width: 3rem;
+            height: 100%;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYBAMAAAASWSDLAAAAJ1BMVEUAAAD///////////////////////////////////////////////+uPUo5AAAADXRSTlMAgAtqOjFgcRdOJBMBUXx03wAAAHFJREFUGNNVzcEJgwAQRNEhJCHkFoJ4FQTv2oEdWILYgR1YgqVYgqUJ3xnBOe3yDl+3faZc313vf+WnX/VoO7Hnb5BqU19IUAAKQAYTEAJCQAhIvKTl+EzL8bPlOC0DrQCtC6AAZDAZoFEvg9Qs0qZrB1SjETGu5QDfAAAAAElFTkSuQmCC) no-repeat 0.7rem;
+            background-size: 0.7rem 0.7rem;
+            background-position: center;
+        }
+        .content img{
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 400px) {
+            .download-flex {
+                height: 4rem;
+                font-size: 0.8rem;
+            }
+            .download-flex .app-logo {
+                width: 7rem;
+                height: 3rem;
+            }
+        }
+
+        @media only screen and (min-width: 480px) {
+            .download-flex {
+                height: 5rem;
+                font-size: 0.9rem;
+            }
+            .download-flex .app-logo {
+                width: 8rem;
+                height: 4rem;
+            }
+            .download-flex .app-content .app-open {
+                height: 2rem;
+                line-height: 2rem;
+            }
+        }
+
+        @media only screen and (min-width: 50rem) {
+            div.main {
+                width: 50rem;
+                margin: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <p class="title">
+            <span style="font-size: 1.25rem;">{$news.title}</span>
+        </p>
+
+        <div class="content">
+{$news.content}
+        </div>
+    </div>
+    <div class="download-flex">
+        <div class="app-logo"></div>
+        <div class="app-content">
+            <div class="app-extra">
+                <p class="app-extra">你的智能数字钱包</p>
+                <p class="app-extra">安全 智能 简单 方便 快捷</p>
+            </div>
+            <div class="app-open" onclick="location.href='http://wetoken.vip'">立即打开</div>
+        </div>
+        <div class="btn-close" onclick="this.parentElement.remove()"></div>
+    </div>
+</body>
+
+</html>

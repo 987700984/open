@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="__CSS__/style.css">
+
+    <style>
+        body{
+            /*background: #f2f2f2;*/
+            max-width: 720px;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="yy-mian">
+    <!--
+        <div class="main-banner">
+            <div class="top-bar">
+            </div>
+            <div class="agent-level clearfix">
+                <div class="img-wrap">
+                    <img src="{$headimgurl}" alt=""/>
+                </div>
+                <div class="agent-msg">
+                    <span class="agent-name">{$nickname}</span>
+                    <div class="msg-box">
+                        <p class="agent-id"><i></i><span>{$tproleinfo.rolename}</span></p>
+                        {if condition="$imstpuserinfo.phone neq '' and $imstpuserinfo.phone neq 0"}
+                        <p class="agent-phone"><i></i><span>{$imstpuserinfo.phone}</span></p>
+                        {/if}
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="show-list clearfix">
+                <div class="my-charge"><span>{$imstpuserinfo.cardcount}</span><p>我的充值</p></div>
+                <div class="my-yqm"><span>{$imstpuserinfo.id}</span><p>我的邀请码</p></div>
+            </div>
+        </div>
+        -->
+        <div class="main-banner">
+        <!--
+            <div class="top-bar">
+                <a class="top-set" href="#"><img src="./img/icon_setup.png" alt="设置"/></a>
+                <a class="top-msg" href="#"><img src="./img/icon_msg.png" alt="消息"/></a>
+            </div>
+        -->    
+            <div class="agent-level clearfix">
+                <div class="agent-msg">
+                    <div class="img-wrap">
+                        <img src="{$headimgurl}" alt=""/>
+                    </div>
+                    <p class="agent-name">{$nickname}</p>
+                </div>
+                <div class="msg-box">
+                    <p class="agent-id"><i></i><span>{$tproleinfo.rolename}</span></p>
+                    {if condition="$imstpuserinfo.phone neq '' and $imstpuserinfo.phone neq 0"}
+                        <p class="agent-phone"><i></i><span>{$imstpuserinfo.phone}</span></p>
+                    {/if}
+                </div>
+            </div>
+            <div class="show-list clearfix">
+                <div class="my-charge"><span>{$imstpuserinfo.cardcount}</span><p>我的充值</p></div>
+                <div class="my-yqm"><span>{$imstpuserinfo.id}</span><p>我的邀请码</p></div>
+            </div>
+        </div>
+        <nav class="list-function">
+            <ul class="clearfix">
+                <li>
+                    <a href="{:url('mobile/mycommission/index')}">
+                        <img src="__IMG__/func_img1.png" alt=""/>
+                        <p>我的佣金</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img2.png" alt=""/>
+                        <p>充值查询</p>
+                    </a>
+                </li>
+                <!-- 
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img3.png" alt=""/>
+                        <p>今日充值</p>
+                    </a>
+                </li> 
+
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img4.png" alt=""/>
+                        <p>所有玩家</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img5.png" alt=""/>
+                        <p>我的玩家</p>
+                    </a>
+                </li>
+                -->
+                <li>
+                    <a href="{:url('mobile/agent/index')}">
+                        <img src="__IMG__/func_img6.png" alt=""/>
+                        <p>我的代理</p>
+                    </a>
+                </li>
+                <!--
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img7.png" alt=""/>
+                        <p>授权代理</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img8.png" alt=""/>
+                        <p>游戏数据</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img9.png" alt=""/>
+                        <p>在线人数</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img10.png" alt=""/>
+                        <p>我要投诉</p>
+                    </a>
+                </li>
+                -->
+                <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img11.png" alt=""/>
+                        <p>房卡调拨</p>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{:url('mobile/marketings/index')}">
+                        <img src="__IMG__/func_img7.png" alt=""/>
+                        <p>推广工具</p>
+                    </a>
+                </li>               
+<!--                 <li>
+                    <a href="#">
+                        <img src="__IMG__/func_img12.png" alt=""/>
+                        <p>靓号设置</p>
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
+
+    </div>
+    <div class="hot-line">
+        <div class="line-wrap">
+            客服热线：400-180-1888
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+                var w = document.documentElement.clientWidth;
+                if (w <= 720) {
+                    document.documentElement.style.fontSize = w / 12 + 'px';
+                } else {
+                    document.body.style.width = '720px';
+                    document.body.style.margin = '0 auto';
+                    document.documentElement.style.fontSize = 720 / 12 + 'px';
+                }
+            };
+    </script>
+</body>
+</html>

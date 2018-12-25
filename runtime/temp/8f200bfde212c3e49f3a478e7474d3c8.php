@@ -1,0 +1,194 @@
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:79:"D:\PHPTutorial\WWW\open\public/../application/siteinfo\view\siteinfo\index.html";i:1532336026;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>钱包升级(<?php echo $title; ?>)</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href="__CSS__/bootstrap.min.css?v=3.3.6" rel="stylesheet">
+    <link href="__CSS__/font-awesome.min.css?v=4.4.0" rel="stylesheet">
+    <link href="__CSS__/animate.min.css" rel="stylesheet">
+    <link href="__CSS__/plugins/iCheck/custom.css" rel="stylesheet">
+    <link href="__CSS__/style.min.css?v=4.1.0" rel="stylesheet">
+    <link href="__CSS__/plugins/sweetalert/sweetalert.css" rel="stylesheet">
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-8">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>钱包升级(<?php echo $title; ?>)</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form class="form-horizontal m-t" id="commentForm" method="post" onsubmit="return toVaild()">
+ 
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">版本号：</label>
+                            <div class="input-group col-sm-8">
+                                <input id="version" type="text" class="form-control" <?php if(isset($version)): ?>value="<?php echo $version; ?>"<?php endif; ?> name="version" style="width:100%;"required="" aria-required="true">
+                            </div>
+                        </div>
+               
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">升级说明：</label>
+                            <div class="input-group col-sm-8">
+                                <textarea id="" name="description" style="width:100%;height:400px;"><?php if(isset($description)): ?><?php echo $description; endif; ?></textarea>
+                            </div>
+                        </div>
+                            
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">升级条件：</label>
+                            <div class="input-group col-sm-8">
+                                <select name="upgrade" id="">
+                                    <option value="0" <?php if(!$upgrade): ?>selected<?php endif; ?>>升级提醒</option>
+                                    <option value="1" <?php if($upgrade): ?>{selected}<?php endif; ?>>强制升级</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">升级地址：</label>
+                            <div class="input-group col-sm-8">
+                                <input id="url" type="text" class="form-control" name="url" style="width:100%;"required="" aria-required="true" <?php if(isset($url)): ?>value="<?php echo $url; ?>"<?php endif; ?>>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">apk上传：</label>
+                            <div class="input-group col-sm-8">
+                                <input id="apk" type="text" class="form-control" name="apk" style="width: 90%"required="" aria-required="true" <?php if(isset($apk)): ?>value="<?php echo $apk; ?>"<?php endif; ?>>
+                                <label class="btn btn-primary" for="upfile" style="display:inline-block;float:right">上传</label><input id="upfile" type="file" class="form-control" name="upfile" style="display: none"required="" aria-required="true" onchange="upapk()">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2">
+                                <!--<input type="button" value="提交" class="btn btn-primary" id="postform"/>-->
+                                <div class="input-group col-sm-4">
+                                    <button class="btn btn-primary" type="submit">更新</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script src="__JS__/jquery.min.js?v=2.1.4"></script>
+<script src="__JS__/bootstrap.min.js?v=3.3.6"></script>
+<script src="__JS__/content.min.js?v=1.0.0"></script>
+<script src="__JS__/plugins/validate/jquery.validate.min.js"></script>
+<script src="__JS__/plugins/validate/messages_zh.min.js"></script>
+<script src="__JS__/plugins/iCheck/icheck.min.js"></script>
+<script src="__JS__/plugins/sweetalert/sweetalert.min.js"></script>
+<script src="__JS__/plugins/layer/laydate/laydate.js"></script>
+<script src="__JS__/plugins/suggest/bootstrap-suggest.min.js"></script>
+<script src="__JS__/plugins/layer/layer.min.js"></script>
+<script src="__JS__/plugins/My97DatePicker/WdatePicker.js"></script>
+
+<script type="text/javascript">
+    //表单提交
+    function toVaild(){
+        var jz;
+        var url = "./<?php echo $wallet; ?>";
+        $.ajax({
+            type:"POST",
+            url:url,
+            data:{'data' : $('#commentForm').serialize()},// 你的formid
+            async: false,
+            beforeSend:function(){
+                jz = layer.load(0, {shade: false}); //0代表加载的风格，支持0-2
+            },
+            error: function(request) {
+                layer.close(jz);
+                swal("网络错误!", "", "error");
+            },
+            success: function(data) {
+                //关闭加载层
+                layer.close(jz);
+                if(data.code == 1){
+                    swal("更新成功", "", "success");
+                }else{
+                    swal("更新失败", "", "error");
+                }
+
+            }
+        });
+
+        return false;
+    }
+
+    //表单验证
+    $(document).ready(function(){
+        $(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",});
+    });
+    $.validator.setDefaults({
+        highlight: function(e) {
+            $(e).closest(".form-group").removeClass("has-success").addClass("has-error")
+        },
+        success: function(e) {
+            e.closest(".form-group").removeClass("has-error").addClass("has-success")
+        },
+        errorElement: "span",
+        errorPlacement: function(e, r) {
+            e.appendTo(r.is(":radio") || r.is(":checkbox") ? r.parent().parent().parent() : r.parent())
+        },
+        errorClass: "help-block m-b-none",
+        validClass: "help-block m-b-none"
+    });
+
+    function upapk(){
+        $.get("<?php echo url('admin/index/uptoken'); ?>", function(result){
+            console.log(result);
+            console.log(document.getElementById("upfile").files[0].name);
+            if(result.code == 1){
+                var formData = new FormData();
+                formData.append("token",result.data);
+                formData.append("file",document.getElementById("upfile").files[0]);
+                formData.append("key",document.getElementById("upfile").files[0].name);
+                $.ajax({
+                    type: "POST", // 数据提交类型
+                    url: "http://up-z2.qiniup.com/", // 发送地址
+                    data: formData, //发送数据
+                    async: true, // 是否异步
+                    processData: false, //processData 默认为false，当设置为true的时候,jquery ajax 提交的时候不会序列化 data，而是直接使用data
+                    contentType: false,//
+                    error: function(request) {
+                        swal("网络错误!", "", "error");
+                    },
+                    success: function(data) {
+                        console.log(data);
+                        if(data.key){
+                            $('#apk').val(data.key);
+                            swal("更新成功", "", "success");
+                        }else{
+                            swal("更新失败", "", "error");
+                        }
+
+                    }
+                });
+            }else{
+                swal("获取token失败", "", "error");
+            }
+        });
+
+    }
+
+</script>
+</body>
+</html>
